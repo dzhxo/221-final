@@ -28,7 +28,7 @@ tf.app.flags.DEFINE_float('weight_init', .1,
                             """weight init for fully connected layers""")
 tf.app.flags.DEFINE_integer('label_size', 5,
                             """size of label vector""")
-DATA_PATH = "../sequence"
+DATA_PATH = "sequence"
 
 def load_data():
   image_files = os.listdir(DATA_PATH)
