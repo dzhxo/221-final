@@ -22,7 +22,7 @@ tf.app.flags.DEFINE_float('keep_prob', .8,
                             """for dropout""")
 tf.app.flags.DEFINE_float('lr', .001,
                             """for dropout""")
-tf.app.flags.DEFINE_integer('batch_size', 16,
+tf.app.flags.DEFINE_integer('batch_size', 1,
                             """batch size for training""")
 tf.app.flags.DEFINE_float('weight_init', .1,
                             """weight init for fully connected layers""")
@@ -53,12 +53,15 @@ def network(inputs, hidden):
   conv4 = ld.conv_layer(conv3, 1, 1, 4, "encode_4")
   y_0 = conv4
   with tf.variable_scope('conv_lstm', initializer = tf.random_uniform_initializer(-.01, 0.1)):
-    cell = BasicConvLSTMCell.BasicConvLSTMCell([8,8], [3,3], 4)
+    cell = BasicConvLSTMCell.BasicConvLSTMCell([54,96], [3,3], 4)
+    #cell = BasicConvLSTMCell.BasicConvLSTMCell([8,8], [3,3], 4)
     if hidden is None:
       hidden = cell.zero_state(FLAGS.batch_size, tf.float32) 
     y_1, hidden = cell(y_0, hidden)
-
-  return y_1, hidden
+  print y_1
+  reshaped = tf.reshape(y_1, [1, 20736])
+  fully_connected_output = tf.contrib.layers.fully_connected(reshaped, 5)
+  return fully_connected_output, hidden
 
 # make a template for reuse
 network_template = tf.make_template('network', network)
@@ -68,7 +71,7 @@ def train():
   with tf.Graph().as_default():
     # make inputs
     x = tf.placeholder(tf.float32, [None, FLAGS.seq_length, 216, 384, 3])
-    y = tf.placeholder(tf.float32, [None, FLAGS.label_size])
+    y = tf.placeholder(tf.float32, [1, FLAGS.label_size])
 
     # possible dropout inside
     keep_prob = tf.placeholder("float")
@@ -86,9 +89,10 @@ def train():
     # pack them all together 
     x_unwrap = tf.stack(x_unwrap)
 
-    # calc total loss (compare x_t to x_t+1)
-    predicted_task_vector = x[:,FLAGS.seq_length-1:,:,:]
-    loss = tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=predicted_task_vector)
+    # calc total loss
+    predicted_task_vector = x_unwrap[FLAGS.seq_length-1,:,:]
+    loss_vector = tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=predicted_task_vector)
+    loss = tf.reduce_mean(loss_vector)
     tf.summary.scalar('loss', loss)
 
     # training
