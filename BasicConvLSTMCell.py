@@ -83,8 +83,9 @@ class BasicConvLSTMCell(ConvRNNCell):
         c, h = state
       else:
         c, h = tf.split(axis=3, num_or_size_splits=2, value=state)
+      print inputs
+      print h
       concat = _conv_linear([inputs, h], self.filter_size, self.num_features * 4, True)
-
       # i = input_gate, j = new_input, f = forget_gate, o = output_gate
       i, j, f, o = tf.split(axis=3, num_or_size_splits=4, value=concat)
 
@@ -111,7 +112,6 @@ def _conv_linear(args, filter_size, num_features, bias, bias_start=0.0, scope=No
   Raises:
     ValueError: if some of the arguments has unspecified or wrong shape.
   """
-
   # Calculate the total size of arguments on dimension 1.
   total_arg_size_depth = 0
   shapes = [a.get_shape().as_list() for a in args]
@@ -122,7 +122,6 @@ def _conv_linear(args, filter_size, num_features, bias, bias_start=0.0, scope=No
       raise ValueError("Linear expects shape[4] of arguments: %s" % str(shapes))
     else:
       total_arg_size_depth += shape[3]
-
   dtype = [a.dtype for a in args][0]
 
   # Now the computation.
