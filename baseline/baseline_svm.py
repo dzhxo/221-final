@@ -5,7 +5,7 @@ from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-DATA_PATH = "sequence"
+DATA_PATH = "../sequence"
 
 def load_data():
   image_files = os.listdir(DATA_PATH)
