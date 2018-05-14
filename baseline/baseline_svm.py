@@ -18,7 +18,7 @@ def load_data():
   return np_images, np.asarray([4] * len(np_images))
 
 x, y = load_data()
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, stratify=y)
 clf = svm.SVC()
 clf.fit(x_train, y_train)
 predicted = clf.predict(x_test)
