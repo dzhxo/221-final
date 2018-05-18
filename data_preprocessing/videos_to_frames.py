@@ -57,7 +57,7 @@ for line in TIMES_CSV:
                 cap.set(cv2.CAP_PROP_POS_MSEC, curr_time)
                 success,image = cap.read()
                 if success:
-                    small = cv2.resize(image, (0,0), fx=0.3, fy=0.3)
+                    small = cv2.resize(image, (0,0), fx=0.15, fy=0.15)
                     cv2.imwrite("frame"+str(frame_num)+"_"+str(subject)+"_"+scene[:3]+"_"+TASK_NAMES[i][:3]+".jpg", small)
                 curr_time += INTERVAL_BETWEEN_FRAMES
                 frame_num += 1
