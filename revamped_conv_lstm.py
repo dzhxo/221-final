@@ -22,7 +22,7 @@ tf.app.flags.DEFINE_string('train_dir', './checkpoints/train_store_conv_lstm',
                             """dir to store trained net""")
 tf.app.flags.DEFINE_integer('seq_length', 10,
                             """size of hidden layer""")
-tf.app.flags.DEFINE_integer('max_step', 200000,
+tf.app.flags.DEFINE_integer('max_step', 10000,
                             """max num of steps""")
 tf.app.flags.DEFINE_float('keep_prob', .8,
                             """for dropout""")
@@ -71,13 +71,16 @@ def load_lstm_data():
   train_x, dev_x, train_y, dev_y = train_test_split(train_x, train_y, test_size = 0.25, stratify = train_y)
   return train_x, train_y, dev_x, dev_y, test_x, test_y
 
-def load_frames(point, label):
-  np_images = []
-  for file_path in point:
-    np_image = scipy.ndimage.imread(file_path)
-    np_images.append(np_image)
-  stacked = np.stack(np_images)
-  return np.expand_dims(stacked,axis=0), np.asarray([label])
+def load_frames(points, labels):
+  all_x = []
+  for point, label in zip(points, labels):
+    np_images = []
+    for file_path in point:
+      np_image = scipy.ndimage.imread(file_path)
+      np_images.append(np_image)
+    all_x.append(np_images)
+  stacked = np.stack(all_x)
+  return np.squeeze(np.expand_dims(all_x,axis=0)), np.asarray(labels)
 
 fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v') 
 
@@ -89,16 +92,13 @@ def network(inputs, hidden):
   conv3 = ld.conv_layer(conv2, 3, 2, 8, "encode_3")
   # conv4
   conv4 = ld.conv_layer(conv3, 1, 1, 4, "encode_4")
-  y_0 = conv4
-  with tf.variable_scope('conv_lstm', initializer = tf.random_uniform_initializer(-.01, 0.1)):
-    cell = BasicConvLSTMCell.BasicConvLSTMCell([27,48], [3,3], 4)
-    #cell = BasicConvLSTMCell.BasicConvLSTMCell([8,8], [3,3], 4)
-    if hidden is None:
-      hidden = cell.zero_state(FLAGS.batch_size, tf.float32) 
-    y_1, hidden = cell(y_0, hidden)
-  reshaped = tf.reshape(y_1, [1, -1])
-  fully_connected_output = tf.layers.dense(reshaped, 2)
-  return fully_connected_output, hidden, conv4
+  #with tf.variable_scope('conv_lstm', initializer = tf.random_uniform_initializer(-.01, 0.1)):
+  #  cell = BasicConvLSTMCell.BasicConvLSTMCell([27,48], [3,3], 4)
+  #  #cell = BasicConvLSTMCell.BasicConvLSTMCell([8,8], [3,3], 4)
+  #  if hidden is None:
+  #    hidden = cell.zero_state(FLAGS.batch_size, tf.float32) 
+  #  y_1, hidden = cell(conv4, hidden)
+  return conv4
 
 # make a template for reuse
 network_template = tf.make_template('network', network)
@@ -108,7 +108,7 @@ def train():
   with tf.Graph().as_default():
     # make inputs
     x = tf.placeholder(tf.float32, [None, FLAGS.seq_length, 108, 192, 3])
-    y = tf.placeholder(tf.float32, [1, FLAGS.label_size])
+    y = tf.placeholder(tf.float32, [None, FLAGS.label_size])
 
     # possible dropout inside
     keep_prob = tf.placeholder("float")
@@ -120,24 +120,37 @@ def train():
     # conv network
     hidden = None
     for i in range(FLAGS.seq_length):
-      x_1, hidden, re = network_template(x_dropout[:,i,:,:,:], hidden)
+      x_1 = network_template(x_dropout[:,i,:,:,:], hidden)
       x_unwrap.append(x_1)
 
 
     # pack them all together 
     x_unwrap = tf.stack(x_unwrap)
 
+
     # calc total loss
 
-    predicted_task_vector = x_unwrap[FLAGS.seq_length-1,:,:]
-    loss_vector = tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=predicted_task_vector)
+    #predicted_task_vector = x_unwrap[FLAGS.seq_length-1,:,:]
+    #end_states = x_unwrap[FLAGS.seq_length - 1,:, :,:]
+    transposed = tf.transpose(x_unwrap, [1,0,2,3,4])
+    rnn_cell = tf.nn.rnn_cell.BasicRNNCell(512)
+    initial_state = rnn_cell.zero_state(16, dtype=tf.float32)
+    reshaped1 = tf.reshape(transposed, [16, 10, 5184]) 
+    outputs, state = tf.nn.dynamic_rnn(rnn_cell, reshaped1, initial_state=initial_state, dtype=tf.float32)
+    end_states = outputs[:,FLAGS.seq_length-1,:]
+  
+    fully_connected_output = tf.layers.dense(end_states, units=2)
+    print fully_connected_output
+    
+    loss_vector = tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=fully_connected_output)
     loss = tf.reduce_mean(loss_vector)
     tf.summary.scalar('loss', loss)
-    correct_pred = tf.equal(tf.argmax(predicted_task_vector, 1), tf.argmax(y, 1))
+    correct_pred = tf.equal(tf.argmax(fully_connected_output, 1), tf.argmax(y, 1))
+    tf_accuracy = tf.reduce_mean(tf.cast(correct_pred, "float"))
    # training
     train_op = tf.train.AdamOptimizer(FLAGS.lr).minimize(loss)
     weights1 = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES)
-    debug_grad = tf.gradients(ys=re, xs = weights1[:-4])
+    #debug_grad = tf.gradients(ys=re, xs = weights1[:-4])
     #print(debug_grad)
     # List of all Variables
     variables = tf.global_variables()
@@ -165,16 +178,20 @@ def train():
     x_train, y_train, x_dev, y_dev, x_test, y_test = load_lstm_data()
 
     for step in xrange(FLAGS.max_step):
-      #index = step % len(x_train)
-      index = random.randint(0, len(x_train) - 1)
-      features, labels = load_frames(x_train[index], y_train[index])
+      index = (step * 16) % len(x_train)
+      while index + 16 > len(x_train):
+          index = (step * 16) % len(x_train)
+      #index = random.randint(0, len(x_train) - 1)
+      features, labels = load_frames(x_train[index:index + 16], y_train[index:index + 16])
+      #print(features)
+      #print(labels)
       t = time.time()
       _, loss_r = sess.run([train_op, loss],feed_dict={x:features, y:labels, keep_prob:FLAGS.keep_prob})
       elapsed = time.time() - t
 
-      if step%100 == 0 and step != 0:
+      if step%10 == 0 and step != 0:
         
-        print sess.run(debug_grad, feed_dict={x:features, y:labels, keep_prob:FLAGS.keep_prob})
+        #print sess.run(debug_grad, feed_dict={x:features, y:labels, keep_prob:FLAGS.keep_prob})
         summary_str = sess.run(summary_op, feed_dict={x:features, y:labels, keep_prob:FLAGS.keep_prob})
         summary_writer.add_summary(summary_str, step) 
         #print("time per batch is " + str(elapsed))
@@ -183,39 +200,44 @@ def train():
       
       assert not np.isnan(loss_r), 'Model diverged with loss = NaN'
 
-      if step%2000 == 1999:
+      if step%200 == 9:
         total = 0
         false_pos = 0
         false_neg = 0
         true_pos = 0
         true_neg = 0
         avg_loss = 0.0
-        for i in range(len(x_dev)):
+        total_accuracy = 0
+        for i in range(len(x_dev)/16):
+            begin = i * 16
             if random.uniform(0, 1) > SAMPLE_RATE:
                 continue
             total += 1
-            dev_feature, dev_label = load_frames(x_dev[i], y_dev[i])
-            accuracy = sess.run(correct_pred, feed_dict={x:dev_feature, y:dev_label, keep_prob:FLAGS.keep_prob})
-            loss_r = sess.run(loss,feed_dict={x:dev_feature, y:dev_label, keep_prob:FLAGS.keep_prob})
+            dev_features, dev_labels = load_frames(x_dev[begin:begin + 16], y_dev[begin:begin + 16])
+            preds = sess.run(correct_pred, feed_dict={x:dev_features, y:dev_labels, keep_prob:FLAGS.keep_prob})
+            loss_r = sess.run(loss,feed_dict={x:dev_features, y:dev_labels, keep_prob:FLAGS.keep_prob})
             avg_loss += loss_r
             #print accuracy, y_dev[i]
-            if accuracy[0]:
-                if y_dev[i][1]:
-                    true_pos += 1
+            for enum_index, bool_ in enumerate(preds):
+                if bool_:
+                    if y_dev[begin + enum_index][1]:
+                        true_pos += 1
+                    else:
+                        true_neg += 1
                 else:
-                    true_neg += 1
-            else:
-                if y_dev[i][1]:
-                    false_neg += 1
-                else:
-                    false_pos += 1
+                    if y_dev[begin + enum_index][1]:
+                        false_neg += 1
+                    else:
+                        false_pos += 1
+            total_accuracy += float(sum(preds)) / len(preds)
         avg_loss /= len(x_dev)
-        print ('total: ' + str(total))
+        print ('total datapoints: ' + str(total))
         print ('true_pos: ' + str(true_pos))
         print ('true_neg: ' + str(true_neg))
         print ('false_pos: ' + str(false_pos))
         print ('false_neg: ' + str(false_neg))
-        print("accuracy: " + str(float(true_pos + true_neg) / total))
+        #print("accuracy: " + str(float(true_pos + true_neg) / total))
+        print("accuracy: " + str(total_accuracy/total))
         print('avg_loss: ' + str(avg_loss))
         print
 
@@ -230,32 +252,36 @@ def train():
     true_pos = 0
     true_neg = 0
     avg_loss = 0.0
-    for i in range(len(x_test)):
+    total_accuracy = 0
+    for i in range(len(x_test)/16):
         #if random.uniform(0, 1) > SAMPLE_RATE:
         #    continue
+        begin = i * 16
         total += 1
-        test_feature, test_label = load_frames(x_test[i], y_test[i])
-        accuracy = sess.run(correct_pred, feed_dict={x:test_feature, y:test_label, keep_prob:FLAGS.keep_prob})
-        loss_r = sess.run(loss,feed_dict={x:test_feature, y:test_label, keep_prob:FLAGS.keep_prob})
+        test_features, test_labels = load_frames(x_test[begin:begin + 16], y_test[begin:begin + 16])
+        preds = sess.run(correct_pred, feed_dict={x:test_features, y:test_labels, keep_prob:FLAGS.keep_prob})
+        loss_r = sess.run(loss,feed_dict={x:test_features, y:test_labels, keep_prob:FLAGS.keep_prob})
         avg_loss += loss_r
-
-        if accuracy[0]:
-            if y_test[i][1]:
-                true_pos += 1
+        for enum_index, bool_ in enumerate(preds):
+            if bool_:
+                if y_test[begin + enum_index][1]:
+                    true_pos += 1
+                else:
+                    true_neg += 1
             else:
-                true_neg += 1
-        else:
-            if y_test[i][1]:
-                false_neg += 1
-            else:
-                false_pos += 1
+                if y_test[begin + enum_index][1]:
+                    false_neg += 1
+                else:
+                    false_pos += 1
+        total_accuracy += float(sum(preds)) / len(preds)
     avg_loss /= len(x_test)
     print ('total: ' + str(total))
     print ('true_pos: ' + str(true_pos))
     print ('true_neg: ' + str(true_neg))
     print ('false_pos: ' + str(false_pos))
     print ('false_neg: ' + str(false_neg))
-    print("accuracy: " + str(float(true_pos + true_neg) / total))
+    #print("accuracy: " + str(float(true_pos + true_neg) / total))
+    print('accuracy: ' + str(total_accuracy/total))
     print('avg_loss: ' + str(avg_loss))
     print
 

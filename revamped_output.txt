@@ -1,0 +1,178 @@
+Tensor("dense/BiasAdd:0", shape=(16, 2), dtype=float32)
+init network from scratch
+18250
+18250
+14600
+14600
+total datapoints: 16
+true_pos: 0
+true_neg: 109
+false_pos: 0
+false_neg: 147
+accuracy: 0.42578125
+avg_loss: 0.0189405436058567
+
+saved to ./checkpoints/train_store_conv_lstm
+10
+loss for this image was 5.2531013
+20
+loss for this image was 2.7542915
+30
+loss for this image was 8.142639
+40
+loss for this image was 2.2461672
+50
+loss for this image was 5.740262
+60
+loss for this image was 2.423588
+70
+loss for this image was 0.8486726
+80
+loss for this image was 1.2222614
+90
+loss for this image was 0.94922733
+100
+loss for this image was 0.92969716
+110
+loss for this image was 1.069507
+120
+loss for this image was 1.4784043
+130
+loss for this image was 8.134176
+140
+loss for this image was 8.529791
+150
+loss for this image was 0.82073194
+160
+loss for this image was 2.8945215
+170
+loss for this image was 3.032372
+180
+loss for this image was 3.454401
+190
+loss for this image was 0.72139066
+200
+loss for this image was 2.1257498
+total datapoints: 31
+true_pos: 31
+true_neg: 204
+false_pos: 7
+false_neg: 254
+accuracy: 0.473790322581
+avg_loss: 0.006877294974784329
+
+saved to ./checkpoints/train_store_conv_lstm
+210
+loss for this image was 0.67445475
+220
+loss for this image was 0.78735113
+230
+loss for this image was 0.5569572
+240
+loss for this image was 1.1432426
+250
+loss for this image was 1.4778743
+260
+loss for this image was 0.8447143
+270
+loss for this image was 0.8453264
+280
+loss for this image was 1.4877758
+290
+loss for this image was 3.2804828
+300
+loss for this image was 1.649389
+310
+loss for this image was 0.85823715
+320
+loss for this image was 0.902111
+330
+loss for this image was 1.1858066
+340
+loss for this image was 3.4304347
+350
+loss for this image was 3.3696983
+360
+loss for this image was 1.2202616
+370
+loss for this image was 1.2199376
+380
+loss for this image was 0.5174258
+390
+loss for this image was 1.5482429
+400
+loss for this image was 2.0142467
+total datapoints: 16
+true_pos: 130
+true_neg: 0
+false_pos: 126
+false_neg: 0
+accuracy: 0.5078125
+avg_loss: 0.00974910755680032
+
+saved to ./checkpoints/train_store_conv_lstm
+410
+loss for this image was 1.6767557
+420
+loss for this image was 6.826771
+430
+loss for this image was 1.6706092
+440
+loss for this image was 0.7200215
+450
+loss for this image was 3.650972
+460
+loss for this image was 2.364029
+470
+loss for this image was 3.5275116
+480
+loss for this image was 1.1127061
+490
+loss for this image was 3.1491907
+500
+loss for this image was 1.3576995
+510
+loss for this image was 3.1819036
+520
+loss for this image was 0.7431268
+530
+loss for this image was 1.3139057
+540
+loss for this image was 0.7944113
+550
+loss for this image was 3.026085
+560
+loss for this image was 2.6120586
+570
+loss for this image was 1.0234791
+580
+loss for this image was 0.5312642
+590
+loss for this image was 2.243938
+600
+loss for this image was 0.62374973
+total datapoints: 17
+true_pos: 21
+true_neg: 128
+false_pos: 1
+false_neg: 122
+accuracy: 0.547794117647
+avg_loss: 0.004122211933135987
+
+saved to ./checkpoints/train_store_conv_lstm
+610
+loss for this image was 0.9564345
+620
+loss for this image was 3.2934585
+630
+loss for this image was 7.6558247
+640
+loss for this image was 7.9446063
+650
+loss for this image was 6.406975
+660
+loss for this image was 2.8836193
+670
+loss for this image was 3.440209
+680
+loss for this image was 2.2237298

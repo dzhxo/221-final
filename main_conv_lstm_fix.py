@@ -96,7 +96,7 @@ def network(inputs, hidden):
     if hidden is None:
       hidden = cell.zero_state(FLAGS.batch_size, tf.float32) 
     y_1, hidden = cell(y_0, hidden)
-  reshaped = tf.reshape(y_1, [1, -1])
+  reshaped = tf.reshape(y_0, [1, 5184])
   fully_connected_output = tf.layers.dense(reshaped, 2)
   return fully_connected_output, hidden, conv4
 
@@ -119,17 +119,21 @@ def train():
 
     # conv network
     hidden = None
-    for i in range(FLAGS.seq_length):
+
+    '''for i in range(FLAGS.seq_length):
       x_1, hidden, re = network_template(x_dropout[:,i,:,:,:], hidden)
       x_unwrap.append(x_1)
-
+    '''
+    x_1, hidden, re = network_template(x_dropout[:,0,:,:,:], hidden)
+    x_unwrap.append(x_1)
 
     # pack them all together 
     x_unwrap = tf.stack(x_unwrap)
 
     # calc total loss
-
-    predicted_task_vector = x_unwrap[FLAGS.seq_length-1,:,:]
+    #print(x_unwrap)
+    #predicted_task_vector = x_unwrap[FLAGS.seq_length-1,:,:]
+    predicted_task_vector = x_unwrap[0,:,:]
     loss_vector = tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=predicted_task_vector)
     loss = tf.reduce_mean(loss_vector)
     tf.summary.scalar('loss', loss)
@@ -174,7 +178,7 @@ def train():
 
       if step%100 == 0 and step != 0:
         
-        print sess.run(debug_grad, feed_dict={x:features, y:labels, keep_prob:FLAGS.keep_prob})
+        #print sess.run(debug_grad, feed_dict={x:features, y:labels, keep_prob:FLAGS.keep_prob})
         summary_str = sess.run(summary_op, feed_dict={x:features, y:labels, keep_prob:FLAGS.keep_prob})
         summary_writer.add_summary(summary_str, step) 
         #print("time per batch is " + str(elapsed))
