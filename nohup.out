@@ -1,0 +1,3699 @@
+================
+0.1 128
+total datapoints: 25
+true_pos: 210
+true_neg: 0
+false_pos: 190
+false_neg: 0
+accuracy: 0.525
+avg_loss: 1.8839433224136053
+
+total datapoints: 26
+true_pos: 229
+true_neg: 0
+false_pos: 187
+false_neg: 0
+accuracy: 0.550480769231
+avg_loss: 0.0049019890893667135
+
+total datapoints: 20
+true_pos: 189
+true_neg: 0
+false_pos: 131
+false_neg: 0
+accuracy: 0.590625
+avg_loss: 0.0037145583694757033
+
+total datapoints: 24
+true_pos: 221
+true_neg: 0
+false_pos: 163
+false_neg: 0
+accuracy: 0.575520833333
+avg_loss: 0.004466074690317338
+
+total datapoints: 20
+true_pos: 187
+true_neg: 0
+false_pos: 133
+false_neg: 0
+accuracy: 0.584375
+avg_loss: 0.003717552667949991
+
+total datapoints: 24
+true_pos: 8
+true_neg: 149
+false_pos: 0
+false_neg: 227
+accuracy: 0.408854166667
+avg_loss: 0.004539364778696093
+
+total datapoints: 18
+true_pos: 172
+true_neg: 0
+false_pos: 116
+false_neg: 0
+accuracy: 0.597222222222
+avg_loss: 0.0033313586111066093
+
+total datapoints: 28
+true_pos: 5
+true_neg: 194
+false_pos: 0
+false_neg: 249
+accuracy: 0.444196428571
+avg_loss: 0.0053024553410295555
+
+total datapoints: 26
+true_pos: 6
+true_neg: 176
+false_pos: 0
+false_neg: 234
+accuracy: 0.4375
+avg_loss: 0.0049708860373911595
+
+total datapoints: 24
+true_pos: 222
+true_neg: 0
+false_pos: 162
+false_neg: 0
+accuracy: 0.578125
+avg_loss: 0.004443827811901062
+
+total datapoints: 27
+true_pos: 7
+true_neg: 194
+false_pos: 0
+false_neg: 231
+accuracy: 0.465277777778
+avg_loss: 0.005103306631472043
+
+total datapoints: 17
+true_pos: 152
+true_neg: 0
+false_pos: 120
+false_neg: 0
+accuracy: 0.558823529412
+avg_loss: 0.0031560080307411155
+
+total datapoints: 27
+true_pos: 251
+true_neg: 0
+false_pos: 181
+false_neg: 0
+accuracy: 0.581018518519
+avg_loss: 0.00504506938930641
+
+total datapoints: 22
+true_pos: 186
+true_neg: 0
+false_pos: 166
+false_neg: 0
+accuracy: 0.528409090909
+avg_loss: 0.004279931992284178
+
+total datapoints: 22
+true_pos: 198
+true_neg: 0
+false_pos: 154
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.004200690216429813
+
+total datapoints: 20
+true_pos: 181
+true_neg: 0
+false_pos: 139
+false_neg: 0
+accuracy: 0.565625
+avg_loss: 0.0037340391185643625
+
+total datapoints: 20
+true_pos: 183
+true_neg: 0
+false_pos: 137
+false_neg: 0
+accuracy: 0.571875
+avg_loss: 0.003694578014024213
+
+total datapoints: 20
+true_pos: 7
+true_neg: 150
+false_pos: 0
+false_neg: 163
+accuracy: 0.490625
+avg_loss: 0.00374276041491006
+
+total datapoints: 17
+true_pos: 136
+true_neg: 0
+false_pos: 136
+false_neg: 0
+accuracy: 0.5
+avg_loss: 0.0032716138962385834
+
+total datapoints: 24
+true_pos: 208
+true_neg: 0
+false_pos: 176
+false_neg: 0
+accuracy: 0.541666666667
+avg_loss: 0.004577647905931465
+
+total datapoints: 25
+true_pos: 227
+true_neg: 0
+false_pos: 173
+false_neg: 0
+accuracy: 0.5675
+avg_loss: 0.004626539294442649
+
+total datapoints: 30
+true_pos: 272
+true_neg: 0
+false_pos: 208
+false_neg: 0
+accuracy: 0.566666666667
+avg_loss: 0.00559496710124741
+
+total datapoints: 31
+true_pos: 267
+true_neg: 0
+false_pos: 229
+false_neg: 0
+accuracy: 0.538306451613
+avg_loss: 0.005815518221537974
+
+total datapoints: 33
+true_pos: 286
+true_neg: 0
+false_pos: 242
+false_neg: 0
+accuracy: 0.541666666667
+avg_loss: 0.006275639443841061
+
+total datapoints: 21
+true_pos: 183
+true_neg: 0
+false_pos: 153
+false_neg: 0
+accuracy: 0.544642857143
+avg_loss: 0.003921335947108868
+
+total datapoints: 21
+true_pos: 193
+true_neg: 0
+false_pos: 143
+false_neg: 0
+accuracy: 0.574404761905
+avg_loss: 0.003933519363534934
+
+total datapoints: 23
+true_pos: 212
+true_neg: 0
+false_pos: 156
+false_neg: 0
+accuracy: 0.576086956522
+avg_loss: 0.004245486224582766
+
+total datapoints: 20
+true_pos: 6
+true_neg: 147
+false_pos: 0
+false_neg: 167
+accuracy: 0.478125
+avg_loss: 0.003765202888032859
+
+total datapoints: 27
+true_pos: 229
+true_neg: 0
+false_pos: 203
+false_neg: 0
+accuracy: 0.530092592593
+avg_loss: 0.005071200588741192
+
+total datapoints: 22
+true_pos: 200
+true_neg: 0
+false_pos: 152
+false_neg: 0
+accuracy: 0.568181818182
+avg_loss: 0.004125230110978146
+
+total datapoints: 21
+true_pos: 189
+true_neg: 0
+false_pos: 147
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.003934035997446025
+
+total datapoints: 31
+true_pos: 267
+true_neg: 0
+false_pos: 229
+false_neg: 0
+accuracy: 0.538306451613
+avg_loss: 0.006003646570248332
+
+total datapoints: 28
+true_pos: 238
+true_neg: 0
+false_pos: 210
+false_neg: 0
+accuracy: 0.53125
+avg_loss: 0.005317777469281232
+
+total datapoints: 21
+true_pos: 184
+true_neg: 0
+false_pos: 152
+false_neg: 0
+accuracy: 0.547619047619
+avg_loss: 0.003967408215246114
+
+total datapoints: 20
+true_pos: 180
+true_neg: 0
+false_pos: 140
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.0037398175774705105
+
+total datapoints: 26
+true_pos: 236
+true_neg: 0
+false_pos: 180
+false_neg: 0
+accuracy: 0.567307692308
+avg_loss: 0.004860443796467919
+
+total datapoints: 14
+true_pos: 120
+true_neg: 0
+false_pos: 104
+false_neg: 0
+accuracy: 0.535714285714
+avg_loss: 0.002664542530506249
+
+total datapoints: 23
+true_pos: 199
+true_neg: 0
+false_pos: 169
+false_neg: 0
+accuracy: 0.540760869565
+avg_loss: 0.004443136575700432
+
+total datapoints: 33
+true_pos: 295
+true_neg: 0
+false_pos: 233
+false_neg: 0
+accuracy: 0.558712121212
+avg_loss: 0.006230437834553056
+
+total datapoints: 23
+true_pos: 205
+true_neg: 0
+false_pos: 163
+false_neg: 0
+accuracy: 0.557065217391
+avg_loss: 0.004352085520607182
+
+total datapoints: 32
+true_pos: 288
+true_neg: 0
+false_pos: 224
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.006023919503398604
+
+total datapoints: 25
+true_pos: 232
+true_neg: 0
+false_pos: 168
+false_neg: 0
+accuracy: 0.58
+avg_loss: 0.004694281873405555
+
+total datapoints: 19
+true_pos: 158
+true_neg: 0
+false_pos: 146
+false_neg: 0
+accuracy: 0.519736842105
+avg_loss: 0.0036445081546561285
+
+total datapoints: 25
+true_pos: 204
+true_neg: 0
+false_pos: 196
+false_neg: 0
+accuracy: 0.51
+avg_loss: 0.004920562541586833
+
+total datapoints: 21
+true_pos: 179
+true_neg: 0
+false_pos: 157
+false_neg: 0
+accuracy: 0.532738095238
+avg_loss: 0.004007250045894293
+
+total datapoints: 28
+true_pos: 230
+true_neg: 0
+false_pos: 218
+false_neg: 0
+accuracy: 0.513392857143
+avg_loss: 0.0054230950926997335
+
+total datapoints: 29
+true_pos: 262
+true_neg: 0
+false_pos: 202
+false_neg: 0
+accuracy: 0.564655172414
+avg_loss: 0.005526720589114723
+
+total datapoints: 22
+true_pos: 204
+true_neg: 0
+false_pos: 148
+false_neg: 0
+accuracy: 0.579545454545
+avg_loss: 0.00413280241798045
+
+total datapoints: 23
+true_pos: 193
+true_neg: 0
+false_pos: 175
+false_neg: 0
+accuracy: 0.524456521739
+avg_loss: 0.004690851439371512
+
+total datapoints: 25
+true_pos: 238
+true_neg: 0
+false_pos: 162
+false_neg: 0
+accuracy: 0.595
+avg_loss: 0.004669119862275593
+
+FINAL TEST METRICS
+total: 226
+true_pos: 2024
+true_neg: 0
+false_pos: 1592
+false_neg: 0
+accuracy: 0.559734513274
+avg_loss: 0.042798801150204825
+
+================
+0.1 256
+total datapoints: 28
+true_pos: 247
+true_neg: 0
+false_pos: 201
+false_neg: 0
+accuracy: 0.551339285714
+avg_loss: 1.1444016217528625
+
+total datapoints: 22
+true_pos: 197
+true_neg: 0
+false_pos: 155
+false_neg: 0
+accuracy: 0.559659090909
+avg_loss: 0.004169129734196939
+
+total datapoints: 34
+true_pos: 296
+true_neg: 0
+false_pos: 248
+false_neg: 0
+accuracy: 0.544117647059
+avg_loss: 0.006456547302319655
+
+total datapoints: 22
+true_pos: 0
+true_neg: 161
+false_pos: 0
+false_neg: 191
+accuracy: 0.457386363636
+avg_loss: 0.004232112353169885
+
+total datapoints: 29
+true_pos: 264
+true_neg: 0
+false_pos: 200
+false_neg: 0
+accuracy: 0.568965517241
+avg_loss: 0.005466167263419832
+
+total datapoints: 24
+true_pos: 0
+true_neg: 163
+false_pos: 0
+false_neg: 221
+accuracy: 0.424479166667
+avg_loss: 0.004601015105391994
+
+total datapoints: 21
+true_pos: 204
+true_neg: 0
+false_pos: 132
+false_neg: 0
+accuracy: 0.607142857143
+avg_loss: 0.00387752617686248
+
+total datapoints: 17
+true_pos: 146
+true_neg: 0
+false_pos: 126
+false_neg: 0
+accuracy: 0.536764705882
+avg_loss: 0.0032597211766834102
+
+total datapoints: 20
+true_pos: 187
+true_neg: 0
+false_pos: 133
+false_neg: 0
+accuracy: 0.584375
+avg_loss: 0.0037550883023863653
+
+total datapoints: 24
+true_pos: 215
+true_neg: 0
+false_pos: 169
+false_neg: 0
+accuracy: 0.559895833333
+avg_loss: 0.0045457005336593335
+
+total datapoints: 25
+true_pos: 233
+true_neg: 0
+false_pos: 167
+false_neg: 0
+accuracy: 0.5825
+avg_loss: 0.0046858345181488795
+
+total datapoints: 21
+true_pos: 177
+true_neg: 0
+false_pos: 159
+false_neg: 0
+accuracy: 0.526785714286
+avg_loss: 0.004025308915077819
+
+total datapoints: 19
+true_pos: 185
+true_neg: 0
+false_pos: 119
+false_neg: 0
+accuracy: 0.608552631579
+avg_loss: 0.003512949736650325
+
+total datapoints: 25
+true_pos: 229
+true_neg: 0
+false_pos: 171
+false_neg: 0
+accuracy: 0.5725
+avg_loss: 0.004718131910670887
+
+total datapoints: 21
+true_pos: 190
+true_neg: 0
+false_pos: 146
+false_neg: 0
+accuracy: 0.565476190476
+avg_loss: 0.003982686241139393
+
+total datapoints: 34
+true_pos: 310
+true_neg: 0
+false_pos: 234
+false_neg: 0
+accuracy: 0.569852941176
+avg_loss: 0.00641647418011647
+
+total datapoints: 18
+true_pos: 0
+true_neg: 122
+false_pos: 0
+false_neg: 166
+accuracy: 0.423611111111
+avg_loss: 0.003643748812767428
+
+total datapoints: 27
+true_pos: 239
+true_neg: 0
+false_pos: 193
+false_neg: 0
+accuracy: 0.553240740741
+avg_loss: 0.005118702971902432
+
+total datapoints: 13
+true_pos: 122
+true_neg: 0
+false_pos: 86
+false_neg: 0
+accuracy: 0.586538461538
+avg_loss: 0.002457212777833965
+
+total datapoints: 19
+true_pos: 157
+true_neg: 0
+false_pos: 147
+false_neg: 0
+accuracy: 0.516447368421
+avg_loss: 0.00364748057255075
+
+total datapoints: 16
+true_pos: 0
+true_neg: 104
+false_pos: 0
+false_neg: 152
+accuracy: 0.40625
+avg_loss: 0.0031043995346247987
+
+total datapoints: 24
+true_pos: 216
+true_neg: 0
+false_pos: 168
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.004533903805677556
+
+total datapoints: 17
+true_pos: 152
+true_neg: 0
+false_pos: 120
+false_neg: 0
+accuracy: 0.558823529412
+avg_loss: 0.0032360969988767764
+
+total datapoints: 20
+true_pos: 180
+true_neg: 0
+false_pos: 140
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.003838547842561706
+
+total datapoints: 24
+true_pos: 219
+true_neg: 0
+false_pos: 165
+false_neg: 0
+accuracy: 0.5703125
+avg_loss: 0.004517307015489941
+
+total datapoints: 31
+true_pos: 290
+true_neg: 0
+false_pos: 206
+false_neg: 0
+accuracy: 0.584677419355
+avg_loss: 0.005797801677845727
+
+total datapoints: 24
+true_pos: 225
+true_neg: 0
+false_pos: 159
+false_neg: 0
+accuracy: 0.5859375
+avg_loss: 0.004484866046380077
+
+total datapoints: 21
+true_pos: 208
+true_neg: 0
+false_pos: 128
+false_neg: 0
+accuracy: 0.619047619048
+avg_loss: 0.0038453393238635104
+
+total datapoints: 21
+true_pos: 197
+true_neg: 0
+false_pos: 139
+false_neg: 0
+accuracy: 0.58630952381
+avg_loss: 0.003923357124170981
+
+total datapoints: 25
+true_pos: 220
+true_neg: 0
+false_pos: 180
+false_neg: 0
+accuracy: 0.55
+avg_loss: 0.004771449891003696
+
+total datapoints: 23
+true_pos: 205
+true_neg: 0
+false_pos: 163
+false_neg: 0
+accuracy: 0.557065217391
+avg_loss: 0.004355211822782995
+
+total datapoints: 30
+true_pos: 263
+true_neg: 0
+false_pos: 217
+false_neg: 0
+accuracy: 0.547916666667
+avg_loss: 0.005694986588370373
+
+total datapoints: 23
+true_pos: 220
+true_neg: 0
+false_pos: 148
+false_neg: 0
+accuracy: 0.597826086957
+avg_loss: 0.004349793415752652
+
+total datapoints: 27
+true_pos: 0
+true_neg: 190
+false_pos: 0
+false_neg: 242
+accuracy: 0.439814814815
+avg_loss: 0.005297408057966836
+
+total datapoints: 25
+true_pos: 228
+true_neg: 0
+false_pos: 172
+false_neg: 0
+accuracy: 0.57
+avg_loss: 0.004720964034398397
+
+total datapoints: 19
+true_pos: 174
+true_neg: 0
+false_pos: 130
+false_neg: 0
+accuracy: 0.572368421053
+avg_loss: 0.003592253552323859
+
+total datapoints: 27
+true_pos: 248
+true_neg: 0
+false_pos: 184
+false_neg: 0
+accuracy: 0.574074074074
+avg_loss: 0.0050744855371060126
+
+total datapoints: 27
+true_pos: 0
+true_neg: 194
+false_pos: 0
+false_neg: 238
+accuracy: 0.449074074074
+avg_loss: 0.005172921146571472
+
+total datapoints: 27
+true_pos: 248
+true_neg: 0
+false_pos: 184
+false_neg: 0
+accuracy: 0.574074074074
+avg_loss: 0.005127791251689606
+
+total datapoints: 28
+true_pos: 239
+true_neg: 0
+false_pos: 209
+false_neg: 0
+accuracy: 0.533482142857
+avg_loss: 0.005329314309375017
+
+total datapoints: 18
+true_pos: 162
+true_neg: 0
+false_pos: 126
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.003488866750859032
+
+total datapoints: 20
+true_pos: 180
+true_neg: 0
+false_pos: 140
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.00377750856488861
+
+total datapoints: 25
+true_pos: 214
+true_neg: 0
+false_pos: 186
+false_neg: 0
+accuracy: 0.535
+avg_loss: 0.004842492174511113
+
+total datapoints: 18
+true_pos: 163
+true_neg: 0
+false_pos: 125
+false_neg: 0
+accuracy: 0.565972222222
+avg_loss: 0.003393815814956161
+
+total datapoints: 33
+true_pos: 300
+true_neg: 0
+false_pos: 228
+false_neg: 0
+accuracy: 0.568181818182
+avg_loss: 0.00624995231628418
+
+total datapoints: 27
+true_pos: 241
+true_neg: 0
+false_pos: 191
+false_neg: 0
+accuracy: 0.55787037037
+avg_loss: 0.005116520308922802
+
+total datapoints: 22
+true_pos: 200
+true_neg: 0
+false_pos: 152
+false_neg: 0
+accuracy: 0.568181818182
+avg_loss: 0.004176290288115993
+
+total datapoints: 21
+true_pos: 188
+true_neg: 0
+false_pos: 148
+false_neg: 0
+accuracy: 0.559523809524
+avg_loss: 0.0039708533562904545
+
+total datapoints: 18
+true_pos: 162
+true_neg: 0
+false_pos: 126
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.0034086972228751693
+
+total datapoints: 25
+true_pos: 245
+true_neg: 0
+false_pos: 155
+false_neg: 0
+accuracy: 0.6125
+avg_loss: 0.0046899533797229945
+
+FINAL TEST METRICS
+total: 226
+true_pos: 2025
+true_neg: 0
+false_pos: 1591
+false_neg: 0
+accuracy: 0.560011061947
+avg_loss: 0.043862949923378705
+
+================
+0.1 512
+total datapoints: 26
+true_pos: 117
+true_neg: 128
+false_pos: 53
+false_neg: 118
+accuracy: 0.588942307692
+avg_loss: 0.13942481146627772
+
+total datapoints: 27
+true_pos: 248
+true_neg: 14
+false_pos: 163
+false_neg: 7
+accuracy: 0.606481481481
+avg_loss: 0.004941878397910725
+
+total datapoints: 21
+true_pos: 198
+true_neg: 1
+false_pos: 137
+false_neg: 0
+accuracy: 0.592261904762
+avg_loss: 0.0038872703999787714
+
+total datapoints: 13
+true_pos: 126
+true_neg: 0
+false_pos: 82
+false_neg: 0
+accuracy: 0.605769230769
+avg_loss: 0.0023472850229867004
+
+total datapoints: 17
+true_pos: 144
+true_neg: 0
+false_pos: 128
+false_neg: 0
+accuracy: 0.529411764706
+avg_loss: 0.0032574991831986117
+
+total datapoints: 18
+true_pos: 157
+true_neg: 1
+false_pos: 130
+false_neg: 0
+accuracy: 0.548611111111
+avg_loss: 0.003300464437744216
+
+total datapoints: 21
+true_pos: 202
+true_neg: 0
+false_pos: 134
+false_neg: 0
+accuracy: 0.60119047619
+avg_loss: 0.0038146016137389385
+
+total datapoints: 19
+true_pos: 171
+true_neg: 0
+false_pos: 133
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.0034036107496187313
+
+total datapoints: 21
+true_pos: 190
+true_neg: 0
+false_pos: 146
+false_neg: 0
+accuracy: 0.565476190476
+avg_loss: 0.0037968988544131396
+
+total datapoints: 22
+true_pos: 212
+true_neg: 0
+false_pos: 140
+false_neg: 0
+accuracy: 0.602272727273
+avg_loss: 0.003925410089620966
+
+total datapoints: 21
+true_pos: 10
+true_neg: 145
+false_pos: 0
+false_neg: 181
+accuracy: 0.46130952381
+avg_loss: 0.003884482697608768
+
+total datapoints: 16
+true_pos: 142
+true_neg: 0
+false_pos: 114
+false_neg: 0
+accuracy: 0.5546875
+avg_loss: 0.002964289598391727
+
+total datapoints: 20
+true_pos: 171
+true_neg: 0
+false_pos: 149
+false_neg: 0
+accuracy: 0.534375
+avg_loss: 0.003660035326267688
+
+total datapoints: 18
+true_pos: 162
+true_neg: 0
+false_pos: 126
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.0033347555816794776
+
+total datapoints: 28
+true_pos: 16
+true_neg: 213
+false_pos: 0
+false_neg: 219
+accuracy: 0.511160714286
+avg_loss: 0.0051548644467101145
+
+total datapoints: 24
+true_pos: 230
+true_neg: 0
+false_pos: 154
+false_neg: 0
+accuracy: 0.598958333333
+avg_loss: 0.004444940268045196
+
+total datapoints: 29
+true_pos: 263
+true_neg: 0
+false_pos: 201
+false_neg: 0
+accuracy: 0.566810344828
+avg_loss: 0.005409104478797348
+
+total datapoints: 20
+true_pos: 190
+true_neg: 1
+false_pos: 129
+false_neg: 0
+accuracy: 0.596875
+avg_loss: 0.00363014291029871
+
+total datapoints: 22
+true_pos: 209
+true_neg: 1
+false_pos: 142
+false_neg: 0
+accuracy: 0.596590909091
+avg_loss: 0.004086066423636901
+
+total datapoints: 18
+true_pos: 3
+true_neg: 128
+false_pos: 0
+false_neg: 157
+accuracy: 0.454861111111
+avg_loss: 0.003463894096103528
+
+total datapoints: 16
+true_pos: 3
+true_neg: 116
+false_pos: 0
+false_neg: 137
+accuracy: 0.46484375
+avg_loss: 0.00300126850964666
+
+total datapoints: 26
+true_pos: 241
+true_neg: 0
+false_pos: 175
+false_neg: 0
+accuracy: 0.579326923077
+avg_loss: 0.004817316379118149
+
+total datapoints: 25
+true_pos: 218
+true_neg: 0
+false_pos: 182
+false_neg: 0
+accuracy: 0.545
+avg_loss: 0.004619607657962491
+
+total datapoints: 18
+true_pos: 172
+true_neg: 0
+false_pos: 116
+false_neg: 0
+accuracy: 0.597222222222
+avg_loss: 0.003357930279536621
+
+total datapoints: 17
+true_pos: 156
+true_neg: 0
+false_pos: 116
+false_neg: 0
+accuracy: 0.573529411765
+avg_loss: 0.003197040717417371
+
+total datapoints: 25
+true_pos: 216
+true_neg: 0
+false_pos: 184
+false_neg: 0
+accuracy: 0.54
+avg_loss: 0.004734300628705007
+
+total datapoints: 19
+true_pos: 0
+true_neg: 127
+false_pos: 0
+false_neg: 177
+accuracy: 0.417763157895
+avg_loss: 0.0036317377023754446
+
+total datapoints: 23
+true_pos: 195
+true_neg: 0
+false_pos: 173
+false_neg: 0
+accuracy: 0.529891304348
+avg_loss: 0.0043751994496312565
+
+total datapoints: 13
+true_pos: 118
+true_neg: 0
+false_pos: 90
+false_neg: 0
+accuracy: 0.567307692308
+avg_loss: 0.002449369649604592
+
+total datapoints: 25
+true_pos: 221
+true_neg: 0
+false_pos: 179
+false_neg: 0
+accuracy: 0.5525
+avg_loss: 0.004717241292201224
+
+total datapoints: 22
+true_pos: 201
+true_neg: 0
+false_pos: 151
+false_neg: 0
+accuracy: 0.571022727273
+avg_loss: 0.004168225508499983
+
+total datapoints: 20
+true_pos: 175
+true_neg: 1
+false_pos: 144
+false_neg: 0
+accuracy: 0.55
+avg_loss: 0.003691344030990224
+
+total datapoints: 26
+true_pos: 236
+true_neg: 0
+false_pos: 180
+false_neg: 0
+accuracy: 0.567307692308
+avg_loss: 0.004886870651014938
+
+total datapoints: 20
+true_pos: 184
+true_neg: 0
+false_pos: 136
+false_neg: 0
+accuracy: 0.575
+avg_loss: 0.0037602218244995184
+
+total datapoints: 23
+true_pos: 193
+true_neg: 0
+false_pos: 175
+false_neg: 0
+accuracy: 0.524456521739
+avg_loss: 0.004373535685531399
+
+total datapoints: 27
+true_pos: 244
+true_neg: 0
+false_pos: 188
+false_neg: 0
+accuracy: 0.564814814815
+avg_loss: 0.00507482457997965
+
+total datapoints: 19
+true_pos: 174
+true_neg: 0
+false_pos: 130
+false_neg: 0
+accuracy: 0.572368421053
+avg_loss: 0.0035669804109823423
+
+total datapoints: 24
+true_pos: 214
+true_neg: 0
+false_pos: 170
+false_neg: 0
+accuracy: 0.557291666667
+avg_loss: 0.004533914292309877
+
+total datapoints: 16
+true_pos: 148
+true_neg: 0
+false_pos: 108
+false_neg: 0
+accuracy: 0.578125
+avg_loss: 0.0029884347762632554
+
+total datapoints: 33
+true_pos: 304
+true_neg: 0
+false_pos: 224
+false_neg: 0
+accuracy: 0.575757575758
+avg_loss: 0.006169502249930629
+
+total datapoints: 33
+true_pos: 312
+true_neg: 0
+false_pos: 216
+false_neg: 0
+accuracy: 0.590909090909
+avg_loss: 0.0061289138409441404
+
+total datapoints: 24
+true_pos: 0
+true_neg: 153
+false_pos: 0
+false_neg: 231
+accuracy: 0.3984375
+avg_loss: 0.00473010299693603
+
+total datapoints: 20
+true_pos: 174
+true_neg: 0
+false_pos: 146
+false_neg: 0
+accuracy: 0.54375
+avg_loss: 0.003782089110984949
+
+total datapoints: 25
+true_pos: 222
+true_neg: 1
+false_pos: 177
+false_neg: 0
+accuracy: 0.5575
+avg_loss: 0.004864886591085286
+
+total datapoints: 22
+true_pos: 204
+true_neg: 0
+false_pos: 148
+false_neg: 0
+accuracy: 0.579545454545
+avg_loss: 0.0041090794729127115
+
+total datapoints: 26
+true_pos: 229
+true_neg: 1
+false_pos: 186
+false_neg: 0
+accuracy: 0.552884615385
+avg_loss: 0.0049491069732756
+
+total datapoints: 15
+true_pos: 129
+true_neg: 0
+false_pos: 111
+false_neg: 0
+accuracy: 0.5375
+avg_loss: 0.0028580021086591846
+
+total datapoints: 21
+true_pos: 186
+true_neg: 0
+false_pos: 150
+false_neg: 0
+accuracy: 0.553571428571
+avg_loss: 0.004037149695989135
+
+total datapoints: 28
+true_pos: 252
+true_neg: 0
+false_pos: 196
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.005310745485784978
+
+total datapoints: 19
+true_pos: 175
+true_neg: 1
+false_pos: 128
+false_neg: 0
+accuracy: 0.578947368421
+avg_loss: 0.0035417333318843204
+
+FINAL TEST METRICS
+total: 227
+true_pos: 2042
+true_neg: 0
+false_pos: 1590
+false_neg: 0
+accuracy: 0.562224669604
+avg_loss: 0.04267541800170434
+
+================
+0.05 128
+total datapoints: 20
+true_pos: 181
+true_neg: 0
+false_pos: 139
+false_neg: 0
+accuracy: 0.565625
+avg_loss: 0.258887064890667
+
+total datapoints: 23
+true_pos: 208
+true_neg: 0
+false_pos: 160
+false_neg: 0
+accuracy: 0.565217391304
+avg_loss: 0.004215094949865289
+
+total datapoints: 31
+true_pos: 278
+true_neg: 0
+false_pos: 218
+false_neg: 0
+accuracy: 0.560483870968
+avg_loss: 0.005800050865066091
+
+total datapoints: 19
+true_pos: 174
+true_neg: 0
+false_pos: 130
+false_neg: 0
+accuracy: 0.572368421053
+avg_loss: 0.003487773494263074
+
+total datapoints: 20
+true_pos: 66
+true_neg: 132
+false_pos: 5
+false_neg: 117
+accuracy: 0.61875
+avg_loss: 0.0033400674014790713
+
+total datapoints: 32
+true_pos: 297
+true_neg: 0
+false_pos: 215
+false_neg: 0
+accuracy: 0.580078125
+avg_loss: 0.005953475652219442
+
+total datapoints: 20
+true_pos: 179
+true_neg: 0
+false_pos: 141
+false_neg: 0
+accuracy: 0.559375
+avg_loss: 0.00372320972177659
+
+total datapoints: 20
+true_pos: 183
+true_neg: 0
+false_pos: 137
+false_neg: 0
+accuracy: 0.571875
+avg_loss: 0.0037311286785636742
+
+total datapoints: 24
+true_pos: 197
+true_neg: 0
+false_pos: 187
+false_neg: 0
+accuracy: 0.513020833333
+avg_loss: 0.004439697162450477
+
+total datapoints: 18
+true_pos: 7
+true_neg: 127
+false_pos: 0
+false_neg: 154
+accuracy: 0.465277777778
+avg_loss: 0.0033653306198750993
+
+total datapoints: 26
+true_pos: 223
+true_neg: 0
+false_pos: 193
+false_neg: 0
+accuracy: 0.536057692308
+avg_loss: 0.004746422286596162
+
+total datapoints: 26
+true_pos: 236
+true_neg: 0
+false_pos: 180
+false_neg: 0
+accuracy: 0.567307692308
+avg_loss: 0.0047999968569491635
+
+total datapoints: 15
+true_pos: 7
+true_neg: 101
+false_pos: 0
+false_neg: 132
+accuracy: 0.45
+avg_loss: 0.0028283113188622673
+
+total datapoints: 26
+true_pos: 239
+true_neg: 0
+false_pos: 177
+false_neg: 0
+accuracy: 0.574519230769
+avg_loss: 0.004782591561366863
+
+total datapoints: 20
+true_pos: 168
+true_neg: 0
+false_pos: 152
+false_neg: 0
+accuracy: 0.525
+avg_loss: 0.00373534802367958
+
+total datapoints: 25
+true_pos: 223
+true_neg: 0
+false_pos: 177
+false_neg: 0
+accuracy: 0.5575
+avg_loss: 0.004634128072295983
+
+total datapoints: 22
+true_pos: 190
+true_neg: 0
+false_pos: 162
+false_neg: 0
+accuracy: 0.539772727273
+avg_loss: 0.004103986010398991
+
+total datapoints: 26
+true_pos: 228
+true_neg: 0
+false_pos: 188
+false_neg: 0
+accuracy: 0.548076923077
+avg_loss: 0.004857490794135559
+
+total datapoints: 13
+true_pos: 113
+true_neg: 0
+false_pos: 95
+false_neg: 0
+accuracy: 0.543269230769
+avg_loss: 0.0024080324626415805
+
+total datapoints: 24
+true_pos: 208
+true_neg: 0
+false_pos: 176
+false_neg: 0
+accuracy: 0.541666666667
+avg_loss: 0.004583064437963997
+
+total datapoints: 18
+true_pos: 153
+true_neg: 0
+false_pos: 135
+false_neg: 0
+accuracy: 0.53125
+avg_loss: 0.0033689553807299613
+
+total datapoints: 18
+true_pos: 165
+true_neg: 0
+false_pos: 123
+false_neg: 0
+accuracy: 0.572916666667
+avg_loss: 0.003329898747220192
+
+total datapoints: 20
+true_pos: 174
+true_neg: 0
+false_pos: 146
+false_neg: 0
+accuracy: 0.54375
+avg_loss: 0.00375650422247137
+
+total datapoints: 28
+true_pos: 240
+true_neg: 0
+false_pos: 208
+false_neg: 0
+accuracy: 0.535714285714
+avg_loss: 0.005233170622764638
+
+total datapoints: 30
+true_pos: 296
+true_neg: 0
+false_pos: 184
+false_neg: 0
+accuracy: 0.616666666667
+avg_loss: 0.005497151577091532
+
+total datapoints: 23
+true_pos: 196
+true_neg: 0
+false_pos: 172
+false_neg: 0
+accuracy: 0.532608695652
+avg_loss: 0.004349181808473782
+
+total datapoints: 14
+true_pos: 119
+true_neg: 0
+false_pos: 105
+false_neg: 0
+accuracy: 0.53125
+avg_loss: 0.0026479250080924575
+
+total datapoints: 23
+true_pos: 203
+true_neg: 0
+false_pos: 165
+false_neg: 0
+accuracy: 0.551630434783
+avg_loss: 0.004329500956072697
+
+total datapoints: 28
+true_pos: 254
+true_neg: 0
+false_pos: 194
+false_neg: 0
+accuracy: 0.566964285714
+avg_loss: 0.005234563675972961
+
+total datapoints: 20
+true_pos: 2
+true_neg: 150
+false_pos: 0
+false_neg: 168
+accuracy: 0.475
+avg_loss: 0.003814070891124805
+
+total datapoints: 25
+true_pos: 231
+true_neg: 0
+false_pos: 169
+false_neg: 0
+accuracy: 0.5775
+avg_loss: 0.004671034157736167
+
+total datapoints: 24
+true_pos: 227
+true_neg: 0
+false_pos: 157
+false_neg: 0
+accuracy: 0.591145833333
+avg_loss: 0.00449683690544263
+
+total datapoints: 22
+true_pos: 198
+true_neg: 0
+false_pos: 154
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.0041292918457874524
+
+total datapoints: 22
+true_pos: 205
+true_neg: 0
+false_pos: 147
+false_neg: 0
+accuracy: 0.582386363636
+avg_loss: 0.004093464574845386
+
+total datapoints: 25
+true_pos: 213
+true_neg: 0
+false_pos: 187
+false_neg: 0
+accuracy: 0.5325
+avg_loss: 0.004768083432674933
+
+total datapoints: 20
+true_pos: 181
+true_neg: 0
+false_pos: 139
+false_neg: 0
+accuracy: 0.565625
+avg_loss: 0.0037521942217794246
+
+total datapoints: 22
+true_pos: 193
+true_neg: 0
+false_pos: 159
+false_neg: 0
+accuracy: 0.548295454545
+avg_loss: 0.004214573918524493
+
+total datapoints: 21
+true_pos: 194
+true_neg: 0
+false_pos: 142
+false_neg: 0
+accuracy: 0.577380952381
+avg_loss: 0.003933164914361434
+
+total datapoints: 33
+true_pos: 277
+true_neg: 0
+false_pos: 251
+false_neg: 0
+accuracy: 0.524621212121
+avg_loss: 0.006259107964304343
+
+total datapoints: 21
+true_pos: 187
+true_neg: 0
+false_pos: 149
+false_neg: 0
+accuracy: 0.556547619048
+avg_loss: 0.003993744098364715
+
+total datapoints: 22
+true_pos: 205
+true_neg: 0
+false_pos: 147
+false_neg: 0
+accuracy: 0.582386363636
+avg_loss: 0.004111420375509588
+
+total datapoints: 18
+true_pos: 158
+true_neg: 0
+false_pos: 130
+false_neg: 0
+accuracy: 0.548611111111
+avg_loss: 0.003462342666554477
+
+total datapoints: 16
+true_pos: 141
+true_neg: 0
+false_pos: 115
+false_neg: 0
+accuracy: 0.55078125
+avg_loss: 0.003014949348559059
+
+total datapoints: 27
+true_pos: 248
+true_neg: 0
+false_pos: 184
+false_neg: 0
+accuracy: 0.574074074074
+avg_loss: 0.005090316755506143
+
+total datapoints: 22
+true_pos: 209
+true_neg: 0
+false_pos: 143
+false_neg: 0
+accuracy: 0.59375
+avg_loss: 0.004120512564626523
+
+total datapoints: 16
+true_pos: 159
+true_neg: 0
+false_pos: 97
+false_neg: 0
+accuracy: 0.62109375
+avg_loss: 0.0029255592211867376
+
+total datapoints: 16
+true_pos: 3
+true_neg: 104
+false_pos: 0
+false_neg: 149
+accuracy: 0.41796875
+avg_loss: 0.0030537844197095557
+
+total datapoints: 26
+true_pos: 237
+true_neg: 0
+false_pos: 179
+false_neg: 0
+accuracy: 0.569711538462
+avg_loss: 0.004870813056547297
+
+total datapoints: 17
+true_pos: 153
+true_neg: 0
+false_pos: 119
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.0031854109273855846
+
+total datapoints: 22
+true_pos: 203
+true_neg: 0
+false_pos: 149
+false_neg: 0
+accuracy: 0.576704545455
+avg_loss: 0.004112558613932777
+
+FINAL TEST METRICS
+total: 226
+true_pos: 2027
+true_neg: 0
+false_pos: 1589
+false_neg: 0
+accuracy: 0.560564159292
+avg_loss: 0.042529394141631455
+
+================
+0.05 256
+total datapoints: 15
+true_pos: 117
+true_neg: 23
+false_pos: 87
+false_neg: 13
+accuracy: 0.583333333333
+avg_loss: 0.24206586533910712
+
+total datapoints: 30
+true_pos: 184
+true_neg: 171
+false_pos: 48
+false_neg: 77
+accuracy: 0.739583333333
+avg_loss: 0.0042101734463142835
+
+total datapoints: 22
+true_pos: 120
+true_neg: 142
+false_pos: 8
+false_neg: 82
+accuracy: 0.744318181818
+avg_loss: 0.002999565986727962
+
+total datapoints: 25
+true_pos: 153
+true_neg: 155
+false_pos: 37
+false_neg: 55
+accuracy: 0.77
+avg_loss: 0.0036070489020487493
+
+total datapoints: 21
+true_pos: 113
+true_neg: 139
+false_pos: 3
+false_neg: 81
+accuracy: 0.75
+avg_loss: 0.0027544326673705904
+
+total datapoints: 30
+true_pos: 163
+true_neg: 206
+false_pos: 11
+false_neg: 100
+accuracy: 0.76875
+avg_loss: 0.004575834916263598
+
+total datapoints: 24
+true_pos: 218
+true_neg: 0
+false_pos: 166
+false_neg: 0
+accuracy: 0.567708333333
+avg_loss: 0.004405115805882966
+
+total datapoints: 24
+true_pos: 225
+true_neg: 0
+false_pos: 159
+false_neg: 0
+accuracy: 0.5859375
+avg_loss: 0.004414034275476463
+
+total datapoints: 16
+true_pos: 148
+true_neg: 0
+false_pos: 108
+false_neg: 0
+accuracy: 0.578125
+avg_loss: 0.0029260772759207706
+
+total datapoints: 24
+true_pos: 214
+true_neg: 0
+false_pos: 170
+false_neg: 0
+accuracy: 0.557291666667
+avg_loss: 0.0044050084946415085
+
+total datapoints: 22
+true_pos: 7
+true_neg: 154
+false_pos: 0
+false_neg: 191
+accuracy: 0.457386363636
+avg_loss: 0.004114455970176318
+
+total datapoints: 16
+true_pos: 136
+true_neg: 0
+false_pos: 120
+false_neg: 0
+accuracy: 0.53125
+avg_loss: 0.002968212954796011
+
+total datapoints: 26
+true_pos: 238
+true_neg: 0
+false_pos: 178
+false_neg: 0
+accuracy: 0.572115384615
+avg_loss: 0.004756223478806257
+
+total datapoints: 23
+true_pos: 193
+true_neg: 0
+false_pos: 175
+false_neg: 0
+accuracy: 0.524456521739
+avg_loss: 0.004228737441225839
+
+total datapoints: 22
+true_pos: 193
+true_neg: 0
+false_pos: 159
+false_neg: 0
+accuracy: 0.548295454545
+avg_loss: 0.004749730691080849
+
+total datapoints: 24
+true_pos: 209
+true_neg: 0
+false_pos: 175
+false_neg: 0
+accuracy: 0.544270833333
+avg_loss: 0.004464766849777226
+
+total datapoints: 26
+true_pos: 232
+true_neg: 0
+false_pos: 184
+false_neg: 0
+accuracy: 0.557692307692
+avg_loss: 0.004821721645195189
+
+total datapoints: 27
+true_pos: 259
+true_neg: 0
+false_pos: 173
+false_neg: 0
+accuracy: 0.599537037037
+avg_loss: 0.004918053112913884
+
+total datapoints: 24
+true_pos: 216
+true_neg: 0
+false_pos: 168
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.00437433990282917
+
+total datapoints: 22
+true_pos: 187
+true_neg: 0
+false_pos: 165
+false_neg: 0
+accuracy: 0.53125
+avg_loss: 0.004077877578651673
+
+total datapoints: 22
+true_pos: 192
+true_neg: 0
+false_pos: 160
+false_neg: 0
+accuracy: 0.545454545455
+avg_loss: 0.004033217601394339
+
+total datapoints: 22
+true_pos: 187
+true_neg: 0
+false_pos: 165
+false_neg: 0
+accuracy: 0.53125
+avg_loss: 0.004025406581851467
+
+total datapoints: 23
+true_pos: 211
+true_neg: 0
+false_pos: 157
+false_neg: 0
+accuracy: 0.573369565217
+avg_loss: 0.004229061777440692
+
+total datapoints: 16
+true_pos: 133
+true_neg: 0
+false_pos: 123
+false_neg: 0
+accuracy: 0.51953125
+avg_loss: 0.00303764700530031
+
+total datapoints: 30
+true_pos: 270
+true_neg: 0
+false_pos: 210
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.005622023110328258
+
+total datapoints: 23
+true_pos: 207
+true_neg: 0
+false_pos: 161
+false_neg: 0
+accuracy: 0.5625
+avg_loss: 0.004317179228267769
+
+total datapoints: 27
+true_pos: 242
+true_neg: 0
+false_pos: 190
+false_neg: 0
+accuracy: 0.560185185185
+avg_loss: 0.005045800559449464
+
+total datapoints: 27
+true_pos: 232
+true_neg: 0
+false_pos: 200
+false_neg: 0
+accuracy: 0.537037037037
+avg_loss: 0.00504673318337309
+
+total datapoints: 24
+true_pos: 207
+true_neg: 0
+false_pos: 177
+false_neg: 0
+accuracy: 0.5390625
+avg_loss: 0.0044233508884073255
+
+total datapoints: 25
+true_pos: 221
+true_neg: 0
+false_pos: 179
+false_neg: 0
+accuracy: 0.5525
+avg_loss: 0.004656666806537157
+
+total datapoints: 23
+true_pos: 199
+true_neg: 0
+false_pos: 169
+false_neg: 0
+accuracy: 0.540760869565
+avg_loss: 0.004301394015951029
+
+total datapoints: 23
+true_pos: 208
+true_neg: 0
+false_pos: 160
+false_neg: 0
+accuracy: 0.565217391304
+avg_loss: 0.004288075148062344
+
+total datapoints: 27
+true_pos: 237
+true_neg: 0
+false_pos: 195
+false_neg: 0
+accuracy: 0.548611111111
+avg_loss: 0.005071118118536122
+
+total datapoints: 29
+true_pos: 262
+true_neg: 0
+false_pos: 202
+false_neg: 0
+accuracy: 0.564655172414
+avg_loss: 0.005340818006239887
+
+total datapoints: 24
+true_pos: 213
+true_neg: 0
+false_pos: 171
+false_neg: 0
+accuracy: 0.5546875
+avg_loss: 0.004515663218360944
+
+total datapoints: 34
+true_pos: 313
+true_neg: 0
+false_pos: 231
+false_neg: 0
+accuracy: 0.575367647059
+avg_loss: 0.006311939306575565
+
+total datapoints: 22
+true_pos: 206
+true_neg: 0
+false_pos: 146
+false_neg: 0
+accuracy: 0.585227272727
+avg_loss: 0.004100716584736202
+
+total datapoints: 28
+true_pos: 261
+true_neg: 0
+false_pos: 187
+false_neg: 0
+accuracy: 0.582589285714
+avg_loss: 0.00514702052327421
+
+total datapoints: 27
+true_pos: 235
+true_neg: 0
+false_pos: 197
+false_neg: 0
+accuracy: 0.543981481481
+avg_loss: 0.005074172582827694
+
+total datapoints: 24
+true_pos: 224
+true_neg: 0
+false_pos: 160
+false_neg: 0
+accuracy: 0.583333333333
+avg_loss: 0.004461691367779819
+
+total datapoints: 22
+true_pos: 204
+true_neg: 0
+false_pos: 148
+false_neg: 0
+accuracy: 0.579545454545
+avg_loss: 0.004042046361666429
+
+total datapoints: 35
+true_pos: 325
+true_neg: 0
+false_pos: 235
+false_neg: 0
+accuracy: 0.580357142857
+avg_loss: 0.006529242985209995
+
+total datapoints: 23
+true_pos: 210
+true_neg: 0
+false_pos: 158
+false_neg: 0
+accuracy: 0.570652173913
+avg_loss: 0.004291491277060314
+
+total datapoints: 30
+true_pos: 283
+true_neg: 0
+false_pos: 197
+false_neg: 0
+accuracy: 0.589583333333
+avg_loss: 0.005496293314522445
+
+total datapoints: 22
+true_pos: 189
+true_neg: 0
+false_pos: 163
+false_neg: 0
+accuracy: 0.536931818182
+avg_loss: 0.004143597493277597
+
+total datapoints: 13
+true_pos: 132
+true_neg: 0
+false_pos: 76
+false_neg: 0
+accuracy: 0.634615384615
+avg_loss: 0.00233068584186396
+
+total datapoints: 15
+true_pos: 134
+true_neg: 0
+false_pos: 106
+false_neg: 0
+accuracy: 0.558333333333
+avg_loss: 0.0028130644996230947
+
+total datapoints: 18
+true_pos: 159
+true_neg: 0
+false_pos: 129
+false_neg: 0
+accuracy: 0.552083333333
+avg_loss: 0.0033427647672223822
+
+total datapoints: 26
+true_pos: 236
+true_neg: 0
+false_pos: 180
+false_neg: 0
+accuracy: 0.567307692308
+avg_loss: 0.004847702389715272
+
+total datapoints: 20
+true_pos: 174
+true_neg: 0
+false_pos: 146
+false_neg: 0
+accuracy: 0.54375
+avg_loss: 0.0036970162705457273
+
+FINAL TEST METRICS
+total: 227
+true_pos: 2042
+true_neg: 0
+false_pos: 1590
+false_neg: 0
+accuracy: 0.562224669604
+avg_loss: 0.04241864054308286
+
+================
+0.05 512
+total datapoints: 24
+true_pos: 193
+true_neg: 32
+false_pos: 134
+false_neg: 25
+accuracy: 0.5859375
+avg_loss: 0.38003913042072635
+
+total datapoints: 16
+true_pos: 47
+true_neg: 116
+false_pos: 3
+false_neg: 90
+accuracy: 0.63671875
+avg_loss: 0.0024348852226677023
+
+total datapoints: 21
+true_pos: 64
+true_neg: 127
+false_pos: 14
+false_neg: 131
+accuracy: 0.568452380952
+avg_loss: 0.0035605159687580367
+
+total datapoints: 26
+true_pos: 126
+true_neg: 169
+false_pos: 21
+false_neg: 100
+accuracy: 0.709134615385
+avg_loss: 0.0038752547244101047
+
+total datapoints: 24
+true_pos: 65
+true_neg: 160
+false_pos: 12
+false_neg: 147
+accuracy: 0.5859375
+avg_loss: 0.003954566901545639
+
+total datapoints: 23
+true_pos: 223
+true_neg: 0
+false_pos: 145
+false_neg: 0
+accuracy: 0.60597826087
+avg_loss: 0.004099414596630337
+
+total datapoints: 26
+true_pos: 61
+true_neg: 173
+false_pos: 10
+false_neg: 172
+accuracy: 0.5625
+avg_loss: 0.004392301351286487
+
+total datapoints: 33
+true_pos: 296
+true_neg: 0
+false_pos: 232
+false_neg: 0
+accuracy: 0.560606060606
+avg_loss: 0.00594624790945344
+
+total datapoints: 25
+true_pos: 214
+true_neg: 0
+false_pos: 186
+false_neg: 0
+accuracy: 0.535
+avg_loss: 0.004577724096691946
+
+total datapoints: 18
+true_pos: 154
+true_neg: 0
+false_pos: 134
+false_neg: 0
+accuracy: 0.534722222222
+avg_loss: 0.003346271439575162
+
+total datapoints: 20
+true_pos: 181
+true_neg: 0
+false_pos: 139
+false_neg: 0
+accuracy: 0.565625
+avg_loss: 0.0036233237625986404
+
+total datapoints: 19
+true_pos: 180
+true_neg: 0
+false_pos: 124
+false_neg: 0
+accuracy: 0.592105263158
+avg_loss: 0.003456586781150635
+
+total datapoints: 32
+true_pos: 293
+true_neg: 0
+false_pos: 219
+false_neg: 0
+accuracy: 0.572265625
+avg_loss: 0.005804726533380729
+
+total datapoints: 24
+true_pos: 225
+true_neg: 0
+false_pos: 159
+false_neg: 0
+accuracy: 0.5859375
+avg_loss: 0.004215461317620246
+
+total datapoints: 24
+true_pos: 223
+true_neg: 0
+false_pos: 161
+false_neg: 0
+accuracy: 0.580729166667
+avg_loss: 0.004295938057837143
+
+total datapoints: 19
+true_pos: 7
+true_neg: 148
+false_pos: 0
+false_neg: 149
+accuracy: 0.509868421053
+avg_loss: 0.0035184468091962644
+
+total datapoints: 20
+true_pos: 178
+true_neg: 0
+false_pos: 142
+false_neg: 0
+accuracy: 0.55625
+avg_loss: 0.0036206093813599067
+
+total datapoints: 23
+true_pos: 215
+true_neg: 0
+false_pos: 153
+false_neg: 0
+accuracy: 0.584239130435
+avg_loss: 0.004122269406817318
+
+total datapoints: 23
+true_pos: 198
+true_neg: 0
+false_pos: 170
+false_neg: 0
+accuracy: 0.538043478261
+avg_loss: 0.004346539300900919
+
+total datapoints: 28
+true_pos: 12
+true_neg: 189
+false_pos: 0
+false_neg: 247
+accuracy: 0.448660714286
+avg_loss: 0.005156803494704834
+
+total datapoints: 22
+true_pos: 197
+true_neg: 0
+false_pos: 155
+false_neg: 0
+accuracy: 0.559659090909
+avg_loss: 0.0040213453354139474
+
+total datapoints: 24
+true_pos: 226
+true_neg: 0
+false_pos: 158
+false_neg: 0
+accuracy: 0.588541666667
+avg_loss: 0.00433602336639932
+
+total datapoints: 20
+true_pos: 169
+true_neg: 0
+false_pos: 151
+false_neg: 0
+accuracy: 0.528125
+avg_loss: 0.0037735646229423987
+
+total datapoints: 20
+true_pos: 177
+true_neg: 0
+false_pos: 143
+false_neg: 0
+accuracy: 0.553125
+avg_loss: 0.0036918570922610545
+
+total datapoints: 30
+true_pos: 262
+true_neg: 0
+false_pos: 218
+false_neg: 0
+accuracy: 0.545833333333
+avg_loss: 0.005514841112825606
+
+total datapoints: 21
+true_pos: 190
+true_neg: 0
+false_pos: 146
+false_neg: 0
+accuracy: 0.565476190476
+avg_loss: 0.003816393270991207
+
+total datapoints: 25
+true_pos: 8
+true_neg: 174
+false_pos: 0
+false_neg: 218
+accuracy: 0.455
+avg_loss: 0.004680456370439924
+
+total datapoints: 18
+true_pos: 166
+true_neg: 0
+false_pos: 122
+false_neg: 0
+accuracy: 0.576388888889
+avg_loss: 0.003313933631044068
+
+total datapoints: 25
+true_pos: 242
+true_neg: 0
+false_pos: 158
+false_neg: 0
+accuracy: 0.605
+avg_loss: 0.004519178619312046
+
+total datapoints: 20
+true_pos: 179
+true_neg: 0
+false_pos: 141
+false_neg: 0
+accuracy: 0.559375
+avg_loss: 0.003725539154346732
+
+total datapoints: 19
+true_pos: 178
+true_neg: 0
+false_pos: 126
+false_neg: 0
+accuracy: 0.585526315789
+avg_loss: 0.003422150392418074
+
+total datapoints: 26
+true_pos: 237
+true_neg: 0
+false_pos: 179
+false_neg: 0
+accuracy: 0.569711538462
+avg_loss: 0.004687158078409748
+
+total datapoints: 29
+true_pos: 278
+true_neg: 0
+false_pos: 186
+false_neg: 0
+accuracy: 0.599137931034
+avg_loss: 0.00535233500606354
+
+total datapoints: 19
+true_pos: 188
+true_neg: 0
+false_pos: 116
+false_neg: 0
+accuracy: 0.618421052632
+avg_loss: 0.0034212811093184943
+
+total datapoints: 17
+true_pos: 159
+true_neg: 0
+false_pos: 113
+false_neg: 0
+accuracy: 0.584558823529
+avg_loss: 0.0030783107565119376
+
+total datapoints: 27
+true_pos: 234
+true_neg: 0
+false_pos: 198
+false_neg: 0
+accuracy: 0.541666666667
+avg_loss: 0.005022254027832048
+
+total datapoints: 24
+true_pos: 225
+true_neg: 0
+false_pos: 159
+false_neg: 0
+accuracy: 0.5859375
+avg_loss: 0.004359167012383995
+
+total datapoints: 24
+true_pos: 9
+true_neg: 158
+false_pos: 0
+false_neg: 217
+accuracy: 0.434895833333
+avg_loss: 0.00443630298692936
+
+total datapoints: 28
+true_pos: 264
+true_neg: 0
+false_pos: 184
+false_neg: 0
+accuracy: 0.589285714286
+avg_loss: 0.005039196924056882
+
+total datapoints: 32
+true_pos: 295
+true_neg: 0
+false_pos: 217
+false_neg: 0
+accuracy: 0.576171875
+avg_loss: 0.005791223922456272
+
+total datapoints: 26
+true_pos: 242
+true_neg: 0
+false_pos: 174
+false_neg: 0
+accuracy: 0.581730769231
+avg_loss: 0.004681097818355935
+
+total datapoints: 24
+true_pos: 220
+true_neg: 0
+false_pos: 164
+false_neg: 0
+accuracy: 0.572916666667
+avg_loss: 0.004343983995239199
+
+total datapoints: 16
+true_pos: 146
+true_neg: 0
+false_pos: 110
+false_neg: 0
+accuracy: 0.5703125
+avg_loss: 0.0028750893369739092
+
+total datapoints: 21
+true_pos: 201
+true_neg: 0
+false_pos: 135
+false_neg: 0
+accuracy: 0.598214285714
+avg_loss: 0.0038224050292262326
+
+total datapoints: 29
+true_pos: 255
+true_neg: 0
+false_pos: 209
+false_neg: 0
+accuracy: 0.549568965517
+avg_loss: 0.005292816602975974
+
+total datapoints: 16
+true_pos: 142
+true_neg: 0
+false_pos: 114
+false_neg: 0
+accuracy: 0.5546875
+avg_loss: 0.0029365145367994286
+
+total datapoints: 16
+true_pos: 9
+true_neg: 114
+false_pos: 0
+false_neg: 133
+accuracy: 0.48046875
+avg_loss: 0.0029187988741465384
+
+total datapoints: 17
+true_pos: 163
+true_neg: 0
+false_pos: 109
+false_neg: 0
+accuracy: 0.599264705882
+avg_loss: 0.0030470999172829854
+
+total datapoints: 21
+true_pos: 201
+true_neg: 0
+false_pos: 135
+false_neg: 0
+accuracy: 0.598214285714
+avg_loss: 0.0037848366047042647
+
+total datapoints: 27
+true_pos: 240
+true_neg: 0
+false_pos: 192
+false_neg: 0
+accuracy: 0.555555555556
+avg_loss: 0.004959213464218547
+
+FINAL TEST METRICS
+total: 229
+true_pos: 2070
+true_neg: 0
+false_pos: 1594
+false_neg: 0
+accuracy: 0.564956331878
+avg_loss: 0.04181214800197834
+
+================
+0.01 128
+total datapoints: 21
+true_pos: 176
+true_neg: 9
+false_pos: 145
+false_neg: 6
+accuracy: 0.550595238095
+avg_loss: 0.01504992858294783
+
+total datapoints: 18
+true_pos: 109
+true_neg: 113
+false_pos: 19
+false_neg: 47
+accuracy: 0.770833333333
+avg_loss: 0.0025935831234372895
+
+total datapoints: 25
+true_pos: 197
+true_neg: 102
+false_pos: 59
+false_neg: 42
+accuracy: 0.7475
+avg_loss: 0.0032977682722025903
+
+total datapoints: 32
+true_pos: 218
+true_neg: 151
+false_pos: 63
+false_neg: 80
+accuracy: 0.720703125
+avg_loss: 0.004354616592670309
+
+total datapoints: 27
+true_pos: 188
+true_neg: 150
+false_pos: 31
+false_neg: 63
+accuracy: 0.782407407407
+avg_loss: 0.0033674958533254163
+
+total datapoints: 25
+true_pos: 185
+true_neg: 89
+false_pos: 103
+false_neg: 23
+accuracy: 0.685
+avg_loss: 0.0035501330392114045
+
+total datapoints: 21
+true_pos: 112
+true_neg: 143
+false_pos: 9
+false_neg: 72
+accuracy: 0.758928571429
+avg_loss: 0.002811841339900576
+
+total datapoints: 18
+true_pos: 140
+true_neg: 61
+false_pos: 56
+false_neg: 31
+accuracy: 0.697916666667
+avg_loss: 0.0028282053388398267
+
+total datapoints: 18
+true_pos: 78
+true_neg: 136
+false_pos: 0
+false_neg: 74
+accuracy: 0.743055555556
+avg_loss: 0.0023686650374840044
+
+total datapoints: 24
+true_pos: 104
+true_neg: 164
+false_pos: 4
+false_neg: 112
+accuracy: 0.697916666667
+avg_loss: 0.0033883879842429325
+
+total datapoints: 24
+true_pos: 169
+true_neg: 120
+false_pos: 26
+false_neg: 69
+accuracy: 0.752604166667
+avg_loss: 0.0031261815531500453
+
+total datapoints: 31
+true_pos: 157
+true_neg: 199
+false_pos: 4
+false_neg: 136
+accuracy: 0.717741935484
+avg_loss: 0.004162784740842622
+
+total datapoints: 22
+true_pos: 121
+true_neg: 131
+false_pos: 12
+false_neg: 88
+accuracy: 0.715909090909
+avg_loss: 0.0030066491735392603
+
+total datapoints: 21
+true_pos: 120
+true_neg: 131
+false_pos: 14
+false_neg: 71
+accuracy: 0.747023809524
+avg_loss: 0.002806125386007901
+
+total datapoints: 22
+true_pos: 108
+true_neg: 160
+false_pos: 7
+false_neg: 77
+accuracy: 0.761363636364
+avg_loss: 0.002931972396784815
+
+total datapoints: 25
+true_pos: 126
+true_neg: 177
+false_pos: 9
+false_neg: 88
+accuracy: 0.7575
+avg_loss: 0.003311986199740706
+
+total datapoints: 24
+true_pos: 159
+true_neg: 146
+false_pos: 20
+false_neg: 59
+accuracy: 0.794270833333
+avg_loss: 0.003134591924733129
+
+total datapoints: 24
+true_pos: 140
+true_neg: 155
+false_pos: 12
+false_neg: 77
+accuracy: 0.768229166667
+avg_loss: 0.003064329583069374
+
+total datapoints: 24
+true_pos: 139
+true_neg: 146
+false_pos: 6
+false_neg: 93
+accuracy: 0.7421875
+avg_loss: 0.0031520655237395187
+
+total datapoints: 33
+true_pos: 217
+true_neg: 185
+false_pos: 36
+false_neg: 90
+accuracy: 0.761363636364
+avg_loss: 0.004863321756494456
+
+total datapoints: 24
+true_pos: 118
+true_neg: 155
+false_pos: 2
+false_neg: 109
+accuracy: 0.7109375
+avg_loss: 0.0032791837741588726
+
+total datapoints: 14
+true_pos: 59
+true_neg: 108
+false_pos: 0
+false_neg: 57
+accuracy: 0.745535714286
+avg_loss: 0.0019073268216231775
+
+total datapoints: 23
+true_pos: 146
+true_neg: 126
+false_pos: 17
+false_neg: 79
+accuracy: 0.739130434783
+avg_loss: 0.002979058594539248
+
+total datapoints: 15
+true_pos: 75
+true_neg: 103
+false_pos: 12
+false_neg: 50
+accuracy: 0.741666666667
+avg_loss: 0.0020727939687926193
+
+total datapoints: 26
+true_pos: 143
+true_neg: 170
+false_pos: 28
+false_neg: 75
+accuracy: 0.752403846154
+avg_loss: 0.003724850350412829
+
+total datapoints: 23
+true_pos: 101
+true_neg: 156
+false_pos: 0
+false_neg: 111
+accuracy: 0.698369565217
+avg_loss: 0.003373601839460176
+
+total datapoints: 18
+true_pos: 99
+true_neg: 114
+false_pos: 9
+false_neg: 66
+accuracy: 0.739583333333
+avg_loss: 0.0026550403956709235
+
+total datapoints: 19
+true_pos: 107
+true_neg: 123
+false_pos: 11
+false_neg: 63
+accuracy: 0.756578947368
+avg_loss: 0.0026214887027082774
+
+total datapoints: 22
+true_pos: 123
+true_neg: 147
+false_pos: 4
+false_neg: 78
+accuracy: 0.767045454545
+avg_loss: 0.002875654101371765
+
+total datapoints: 20
+true_pos: 101
+true_neg: 137
+false_pos: 6
+false_neg: 76
+accuracy: 0.74375
+avg_loss: 0.0026931725452686178
+
+total datapoints: 14
+true_pos: 77
+true_neg: 97
+false_pos: 3
+false_neg: 47
+accuracy: 0.776785714286
+avg_loss: 0.0017419645868498703
+
+total datapoints: 16
+true_pos: 62
+true_neg: 121
+false_pos: 4
+false_neg: 69
+accuracy: 0.71484375
+avg_loss: 0.0022816462927851182
+
+total datapoints: 25
+true_pos: 124
+true_neg: 170
+false_pos: 7
+false_neg: 99
+accuracy: 0.735
+avg_loss: 0.003784601195105191
+
+total datapoints: 29
+true_pos: 183
+true_neg: 160
+false_pos: 36
+false_neg: 85
+accuracy: 0.739224137931
+avg_loss: 0.0058551666489962875
+
+total datapoints: 25
+true_pos: 141
+true_neg: 153
+false_pos: 8
+false_neg: 98
+accuracy: 0.735
+avg_loss: 0.0032641847133636475
+
+total datapoints: 14
+true_pos: 75
+true_neg: 92
+false_pos: 4
+false_neg: 53
+accuracy: 0.745535714286
+avg_loss: 0.0018228316101534614
+
+total datapoints: 16
+true_pos: 92
+true_neg: 101
+false_pos: 10
+false_neg: 53
+accuracy: 0.75390625
+avg_loss: 0.0022114515386778733
+
+total datapoints: 23
+true_pos: 124
+true_neg: 168
+false_pos: 5
+false_neg: 71
+accuracy: 0.79347826087
+avg_loss: 0.0028149777691939782
+
+total datapoints: 18
+true_pos: 125
+true_neg: 105
+false_pos: 6
+false_neg: 52
+accuracy: 0.798611111111
+avg_loss: 0.002021773412309844
+
+total datapoints: 18
+true_pos: 106
+true_neg: 126
+false_pos: 11
+false_neg: 45
+accuracy: 0.805555555556
+avg_loss: 0.002181151768256878
+
+total datapoints: 24
+true_pos: 119
+true_neg: 157
+false_pos: 15
+false_neg: 93
+accuracy: 0.71875
+avg_loss: 0.0034245531394563873
+
+total datapoints: 24
+true_pos: 120
+true_neg: 172
+false_pos: 5
+false_neg: 87
+accuracy: 0.760416666667
+avg_loss: 0.003084958294342304
+
+total datapoints: 16
+true_pos: 92
+true_neg: 110
+false_pos: 2
+false_neg: 52
+accuracy: 0.7890625
+avg_loss: 0.002135393973054557
+
+total datapoints: 24
+true_pos: 143
+true_neg: 153
+false_pos: 7
+false_neg: 81
+accuracy: 0.770833333333
+avg_loss: 0.0030154645401855996
+
+total datapoints: 29
+true_pos: 96
+true_neg: 213
+false_pos: 1
+false_neg: 154
+accuracy: 0.665948275862
+avg_loss: 0.004642617052999036
+
+total datapoints: 23
+true_pos: 117
+true_neg: 154
+false_pos: 1
+false_neg: 96
+accuracy: 0.736413043478
+avg_loss: 0.003149119812866737
+
+total datapoints: 17
+true_pos: 91
+true_neg: 117
+false_pos: 3
+false_neg: 61
+accuracy: 0.764705882353
+avg_loss: 0.00205473674576858
+
+total datapoints: 14
+true_pos: 85
+true_neg: 92
+false_pos: 4
+false_neg: 43
+accuracy: 0.790178571429
+avg_loss: 0.0017476780332367995
+
+total datapoints: 24
+true_pos: 109
+true_neg: 166
+false_pos: 3
+false_neg: 106
+accuracy: 0.716145833333
+avg_loss: 0.0033283559618325067
+
+total datapoints: 20
+true_pos: 124
+true_neg: 130
+false_pos: 7
+false_neg: 59
+accuracy: 0.79375
+avg_loss: 0.002265583926233752
+
+FINAL TEST METRICS
+total: 226
+true_pos: 1275
+true_neg: 1537
+false_pos: 51
+false_neg: 753
+accuracy: 0.777654867257
+avg_loss: 0.02828483504201586
+
+================
+0.01 256
+total datapoints: 18
+true_pos: 13
+true_neg: 120
+false_pos: 2
+false_neg: 153
+accuracy: 0.461805555556
+avg_loss: 0.053794941385773204
+
+total datapoints: 25
+true_pos: 169
+true_neg: 135
+false_pos: 53
+false_neg: 43
+accuracy: 0.76
+avg_loss: 0.003594830784136745
+
+total datapoints: 18
+true_pos: 103
+true_neg: 123
+false_pos: 12
+false_neg: 50
+accuracy: 0.784722222222
+avg_loss: 0.0023645272462549994
+
+total datapoints: 22
+true_pos: 138
+true_neg: 132
+false_pos: 22
+false_neg: 60
+accuracy: 0.767045454545
+avg_loss: 0.00286715853210979
+
+total datapoints: 25
+true_pos: 176
+true_neg: 112
+false_pos: 61
+false_neg: 51
+accuracy: 0.72
+avg_loss: 0.0034413475919998393
+
+total datapoints: 23
+true_pos: 136
+true_neg: 151
+false_pos: 19
+false_neg: 62
+accuracy: 0.779891304348
+avg_loss: 0.002976099669227064
+
+total datapoints: 19
+true_pos: 144
+true_neg: 109
+false_pos: 12
+false_neg: 39
+accuracy: 0.832236842105
+avg_loss: 0.0020246935895928734
+
+total datapoints: 24
+true_pos: 139
+true_neg: 156
+false_pos: 10
+false_neg: 79
+accuracy: 0.768229166667
+avg_loss: 0.0030214111727438343
+
+total datapoints: 29
+true_pos: 125
+true_neg: 221
+false_pos: 2
+false_neg: 116
+accuracy: 0.745689655172
+avg_loss: 0.00417714446298542
+
+total datapoints: 20
+true_pos: 114
+true_neg: 128
+false_pos: 8
+false_neg: 70
+accuracy: 0.75625
+avg_loss: 0.0026368264341919373
+
+total datapoints: 17
+true_pos: 115
+true_neg: 104
+false_pos: 5
+false_neg: 48
+accuracy: 0.805147058824
+avg_loss: 0.0018986821683782229
+
+total datapoints: 21
+true_pos: 110
+true_neg: 143
+false_pos: 16
+false_neg: 67
+accuracy: 0.752976190476
+avg_loss: 0.0027615117711382287
+
+total datapoints: 21
+true_pos: 126
+true_neg: 146
+false_pos: 10
+false_neg: 54
+accuracy: 0.809523809524
+avg_loss: 0.0025858776928735323
+
+total datapoints: 22
+true_pos: 127
+true_neg: 148
+false_pos: 13
+false_neg: 64
+accuracy: 0.78125
+avg_loss: 0.0026494229700520008
+
+total datapoints: 23
+true_pos: 139
+true_neg: 156
+false_pos: 23
+false_neg: 50
+accuracy: 0.801630434783
+avg_loss: 0.002724688977504046
+
+total datapoints: 18
+true_pos: 111
+true_neg: 113
+false_pos: 9
+false_neg: 55
+accuracy: 0.777777777778
+avg_loss: 0.002257480638419409
+
+total datapoints: 27
+true_pos: 170
+true_neg: 170
+false_pos: 9
+false_neg: 83
+accuracy: 0.787037037037
+avg_loss: 0.0031108317229990197
+
+total datapoints: 14
+true_pos: 67
+true_neg: 94
+false_pos: 2
+false_neg: 61
+accuracy: 0.71875
+avg_loss: 0.002014358613930579
+
+total datapoints: 26
+true_pos: 162
+true_neg: 156
+false_pos: 13
+false_neg: 85
+accuracy: 0.764423076923
+avg_loss: 0.0032323301413329252
+
+total datapoints: 24
+true_pos: 154
+true_neg: 134
+false_pos: 39
+false_neg: 57
+accuracy: 0.75
+avg_loss: 0.0032155035029235507
+
+total datapoints: 20
+true_pos: 110
+true_neg: 133
+false_pos: 5
+false_neg: 72
+accuracy: 0.759375
+avg_loss: 0.0025170131733542995
+
+total datapoints: 22
+true_pos: 163
+true_neg: 121
+false_pos: 31
+false_neg: 37
+accuracy: 0.806818181818
+avg_loss: 0.0027107226681072016
+
+total datapoints: 24
+true_pos: 138
+true_neg: 151
+false_pos: 5
+false_neg: 90
+accuracy: 0.752604166667
+avg_loss: 0.0029983119625925656
+
+total datapoints: 26
+true_pos: 162
+true_neg: 148
+false_pos: 17
+false_neg: 89
+accuracy: 0.745192307692
+avg_loss: 0.0034712216362344822
+
+total datapoints: 22
+true_pos: 160
+true_neg: 113
+false_pos: 22
+false_neg: 57
+accuracy: 0.775568181818
+avg_loss: 0.002806598118889526
+
+total datapoints: 24
+true_pos: 119
+true_neg: 167
+false_pos: 3
+false_neg: 95
+accuracy: 0.744791666667
+avg_loss: 0.0032036260209749737
+
+total datapoints: 34
+true_pos: 181
+true_neg: 233
+false_pos: 5
+false_neg: 125
+accuracy: 0.761029411765
+avg_loss: 0.004255551515318008
+
+total datapoints: 23
+true_pos: 136
+true_neg: 147
+false_pos: 12
+false_neg: 73
+accuracy: 0.76902173913
+avg_loss: 0.00308271213138225
+
+total datapoints: 20
+true_pos: 116
+true_neg: 135
+false_pos: 5
+false_neg: 64
+accuracy: 0.784375
+avg_loss: 0.0023577229219154407
+
+total datapoints: 15
+true_pos: 82
+true_neg: 105
+false_pos: 9
+false_neg: 44
+accuracy: 0.779166666667
+avg_loss: 0.001767351365214243
+
+total datapoints: 25
+true_pos: 162
+true_neg: 153
+false_pos: 22
+false_neg: 63
+accuracy: 0.7875
+avg_loss: 0.002910862923423986
+
+total datapoints: 13
+true_pos: 70
+true_neg: 86
+false_pos: 5
+false_neg: 47
+accuracy: 0.75
+avg_loss: 0.0016624666206368273
+
+total datapoints: 24
+true_pos: 134
+true_neg: 163
+false_pos: 12
+false_neg: 75
+accuracy: 0.7734375
+avg_loss: 0.003001098446886741
+
+total datapoints: 30
+true_pos: 177
+true_neg: 200
+false_pos: 10
+false_neg: 93
+accuracy: 0.785416666667
+avg_loss: 0.0035041287011698145
+
+total datapoints: 23
+true_pos: 116
+true_neg: 161
+false_pos: 2
+false_neg: 89
+accuracy: 0.752717391304
+avg_loss: 0.003110280835815749
+
+total datapoints: 16
+true_pos: 80
+true_neg: 106
+false_pos: 0
+false_neg: 70
+accuracy: 0.7265625
+avg_loss: 0.002199574364680303
+
+total datapoints: 17
+true_pos: 99
+true_neg: 115
+false_pos: 8
+false_neg: 50
+accuracy: 0.786764705882
+avg_loss: 0.002074927108023048
+
+total datapoints: 32
+true_pos: 192
+true_neg: 213
+false_pos: 20
+false_neg: 87
+accuracy: 0.791015625
+avg_loss: 0.004051295266922724
+
+total datapoints: 27
+true_pos: 151
+true_neg: 183
+false_pos: 3
+false_neg: 95
+accuracy: 0.773148148148
+avg_loss: 0.003273210452587751
+
+total datapoints: 16
+true_pos: 85
+true_neg: 110
+false_pos: 2
+false_neg: 59
+accuracy: 0.76171875
+avg_loss: 0.002010808175146892
+
+total datapoints: 19
+true_pos: 118
+true_neg: 127
+false_pos: 9
+false_neg: 50
+accuracy: 0.805921052632
+avg_loss: 0.0020834830106865048
+
+total datapoints: 20
+true_pos: 124
+true_neg: 124
+false_pos: 7
+false_neg: 65
+accuracy: 0.775
+avg_loss: 0.0027269605977307274
+
+total datapoints: 23
+true_pos: 127
+true_neg: 154
+false_pos: 3
+false_neg: 84
+accuracy: 0.763586956522
+avg_loss: 0.002877743111460884
+
+total datapoints: 30
+true_pos: 176
+true_neg: 194
+false_pos: 13
+false_neg: 97
+accuracy: 0.770833333333
+avg_loss: 0.0039711479486660975
+
+total datapoints: 22
+true_pos: 119
+true_neg: 158
+false_pos: 13
+false_neg: 62
+accuracy: 0.786931818182
+avg_loss: 0.002719806779774466
+
+total datapoints: 17
+true_pos: 93
+true_neg: 106
+false_pos: 4
+false_neg: 69
+accuracy: 0.731617647059
+avg_loss: 0.002543636132416629
+
+total datapoints: 19
+true_pos: 115
+true_neg: 118
+false_pos: 8
+false_neg: 63
+accuracy: 0.766447368421
+avg_loss: 0.0024176510725838645
+
+total datapoints: 21
+true_pos: 121
+true_neg: 145
+false_pos: 3
+false_neg: 67
+accuracy: 0.791666666667
+avg_loss: 0.002326772130202511
+
+total datapoints: 24
+true_pos: 148
+true_neg: 165
+false_pos: 4
+false_neg: 67
+accuracy: 0.815104166667
+avg_loss: 0.0026870539083924954
+
+total datapoints: 16
+true_pos: 102
+true_neg: 97
+false_pos: 18
+false_neg: 39
+accuracy: 0.77734375
+avg_loss: 0.0022627664896764516
+
+FINAL TEST METRICS
+total: 226
+true_pos: 1329
+true_neg: 1472
+false_pos: 118
+false_neg: 697
+accuracy: 0.774612831858
+avg_loss: 0.031360258627246645
+
+================
+0.01 512
+total datapoints: 24
+true_pos: 189
+true_neg: 42
+false_pos: 128
+false_neg: 25
+accuracy: 0.6015625
+avg_loss: 0.03332185401932198
+
+total datapoints: 24
+true_pos: 189
+true_neg: 83
+false_pos: 90
+false_neg: 22
+accuracy: 0.708333333333
+avg_loss: 0.0036532112974029807
+
+total datapoints: 19
+true_pos: 99
+true_neg: 137
+false_pos: 8
+false_neg: 60
+accuracy: 0.776315789474
+avg_loss: 0.0023765144966751157
+
+total datapoints: 24
+true_pos: 160
+true_neg: 148
+false_pos: 20
+false_neg: 56
+accuracy: 0.802083333333
+avg_loss: 0.002809334597414951
+
+total datapoints: 15
+true_pos: 96
+true_neg: 85
+false_pos: 8
+false_neg: 51
+accuracy: 0.754166666667
+avg_loss: 0.0021433240999184137
+
+total datapoints: 20
+true_pos: 135
+true_neg: 100
+false_pos: 39
+false_neg: 46
+accuracy: 0.734375
+avg_loss: 0.002576291217819649
+
+total datapoints: 21
+true_pos: 138
+true_neg: 119
+false_pos: 30
+false_neg: 49
+accuracy: 0.764880952381
+avg_loss: 0.002794523027102763
+
+total datapoints: 31
+true_pos: 173
+true_neg: 213
+false_pos: 17
+false_neg: 93
+accuracy: 0.778225806452
+avg_loss: 0.0038008597105725155
+
+total datapoints: 23
+true_pos: 124
+true_neg: 157
+false_pos: 3
+false_neg: 84
+accuracy: 0.763586956522
+avg_loss: 0.0032420962787367653
+
+total datapoints: 24
+true_pos: 169
+true_neg: 119
+false_pos: 45
+false_neg: 51
+accuracy: 0.75
+avg_loss: 0.0033989848341185905
+
+total datapoints: 14
+true_pos: 85
+true_neg: 73
+false_pos: 32
+false_neg: 34
+accuracy: 0.705357142857
+avg_loss: 0.002442495734954495
+
+total datapoints: 23
+true_pos: 159
+true_neg: 117
+false_pos: 28
+false_neg: 64
+accuracy: 0.75
+avg_loss: 0.003183393869436644
+
+total datapoints: 14
+true_pos: 67
+true_neg: 94
+false_pos: 2
+false_neg: 61
+accuracy: 0.71875
+avg_loss: 0.0019395279642388642
+
+total datapoints: 16
+true_pos: 93
+true_neg: 102
+false_pos: 4
+false_neg: 57
+accuracy: 0.76171875
+avg_loss: 0.00203490444447271
+
+total datapoints: 31
+true_pos: 169
+true_neg: 213
+false_pos: 9
+false_neg: 105
+accuracy: 0.770161290323
+avg_loss: 0.0038500212897197663
+
+total datapoints: 18
+true_pos: 83
+true_neg: 129
+false_pos: 0
+false_neg: 76
+accuracy: 0.736111111111
+avg_loss: 0.002401470443212391
+
+total datapoints: 19
+true_pos: 77
+true_neg: 138
+false_pos: 1
+false_neg: 88
+accuracy: 0.707236842105
+avg_loss: 0.002907995888641491
+
+total datapoints: 25
+true_pos: 159
+true_neg: 165
+false_pos: 16
+false_neg: 60
+accuracy: 0.81
+avg_loss: 0.002863827522678553
+
+total datapoints: 24
+true_pos: 166
+true_neg: 126
+false_pos: 39
+false_neg: 53
+accuracy: 0.760416666667
+avg_loss: 0.0041558321481606365
+
+total datapoints: 22
+true_pos: 130
+true_neg: 142
+false_pos: 10
+false_neg: 70
+accuracy: 0.772727272727
+avg_loss: 0.002876389005389504
+
+total datapoints: 20
+true_pos: 114
+true_neg: 133
+false_pos: 18
+false_neg: 55
+accuracy: 0.771875
+avg_loss: 0.0030992708965375797
+
+total datapoints: 21
+true_pos: 121
+true_neg: 150
+false_pos: 6
+false_neg: 59
+accuracy: 0.806547619048
+avg_loss: 0.0022667129077037743
+
+total datapoints: 22
+true_pos: 122
+true_neg: 148
+false_pos: 2
+false_neg: 80
+accuracy: 0.767045454545
+avg_loss: 0.0027078036515188297
+
+total datapoints: 27
+true_pos: 159
+true_neg: 169
+false_pos: 21
+false_neg: 83
+accuracy: 0.759259259259
+avg_loss: 0.0038466172776114986
+
+total datapoints: 28
+true_pos: 156
+true_neg: 187
+false_pos: 8
+false_neg: 97
+accuracy: 0.765625
+avg_loss: 0.003538605097519848
+
+total datapoints: 24
+true_pos: 120
+true_neg: 172
+false_pos: 2
+false_neg: 90
+accuracy: 0.760416666667
+avg_loss: 0.0030142197439582937
+
+total datapoints: 20
+true_pos: 91
+true_neg: 129
+false_pos: 1
+false_neg: 99
+accuracy: 0.6875
+avg_loss: 0.0027139517741744754
+
+total datapoints: 26
+true_pos: 151
+true_neg: 162
+false_pos: 11
+false_neg: 92
+accuracy: 0.752403846154
+avg_loss: 0.0034483053807825162
+
+total datapoints: 30
+true_pos: 166
+true_neg: 214
+false_pos: 8
+false_neg: 92
+accuracy: 0.791666666667
+avg_loss: 0.003842036053333973
+
+total datapoints: 12
+true_pos: 72
+true_neg: 79
+false_pos: 3
+false_neg: 38
+accuracy: 0.786458333333
+avg_loss: 0.001357373269096025
+
+total datapoints: 24
+true_pos: 145
+true_neg: 164
+false_pos: 3
+false_neg: 72
+accuracy: 0.8046875
+avg_loss: 0.0028623181241459726
+
+total datapoints: 27
+true_pos: 181
+true_neg: 166
+false_pos: 12
+false_neg: 73
+accuracy: 0.803240740741
+avg_loss: 0.0031668787236666194
+
+total datapoints: 17
+true_pos: 96
+true_neg: 106
+false_pos: 3
+false_neg: 67
+accuracy: 0.742647058824
+avg_loss: 0.0020634344177656756
+
+total datapoints: 19
+true_pos: 115
+true_neg: 122
+false_pos: 6
+false_neg: 61
+accuracy: 0.779605263158
+avg_loss: 0.002299655042895235
+
+total datapoints: 25
+true_pos: 152
+true_neg: 166
+false_pos: 6
+false_neg: 76
+accuracy: 0.795
+avg_loss: 0.0029248825498681373
+
+total datapoints: 18
+true_pos: 103
+true_neg: 122
+false_pos: 3
+false_neg: 60
+accuracy: 0.78125
+avg_loss: 0.002090643149316801
+
+total datapoints: 27
+true_pos: 150
+true_neg: 187
+false_pos: 13
+false_neg: 82
+accuracy: 0.780092592593
+avg_loss: 0.004525043642494748
+
+total datapoints: 27
+true_pos: 152
+true_neg: 180
+false_pos: 4
+false_neg: 96
+accuracy: 0.768518518519
+avg_loss: 0.0036009772263316093
+
+total datapoints: 25
+true_pos: 161
+true_neg: 161
+false_pos: 14
+false_neg: 64
+accuracy: 0.805
+avg_loss: 0.003071307200065891
+
+total datapoints: 20
+true_pos: 100
+true_neg: 141
+false_pos: 1
+false_neg: 78
+accuracy: 0.753125
+avg_loss: 0.002692465399132936
+
+total datapoints: 24
+true_pos: 146
+true_neg: 141
+false_pos: 6
+false_neg: 91
+accuracy: 0.747395833333
+avg_loss: 0.003025270655170876
+
+total datapoints: 20
+true_pos: 115
+true_neg: 142
+false_pos: 3
+false_neg: 60
+accuracy: 0.803125
+avg_loss: 0.002207816309217431
+
+total datapoints: 26
+true_pos: 147
+true_neg: 180
+false_pos: 11
+false_neg: 78
+accuracy: 0.786057692308
+avg_loss: 0.0031520803502412924
+
+total datapoints: 23
+true_pos: 114
+true_neg: 159
+false_pos: 2
+false_neg: 93
+accuracy: 0.741847826087
+avg_loss: 0.0029267320267394293
+
+total datapoints: 25
+true_pos: 150
+true_neg: 167
+false_pos: 13
+false_neg: 70
+accuracy: 0.7925
+avg_loss: 0.0030154978679682093
+
+total datapoints: 26
+true_pos: 148
+true_neg: 176
+false_pos: 8
+false_neg: 84
+accuracy: 0.778846153846
+avg_loss: 0.003219125390837497
+
+total datapoints: 19
+true_pos: 113
+true_neg: 127
+false_pos: 8
+false_neg: 56
+accuracy: 0.789473684211
+avg_loss: 0.0021953033881074967
+
+total datapoints: 13
+true_pos: 79
+true_neg: 88
+false_pos: 9
+false_neg: 32
+accuracy: 0.802884615385
+avg_loss: 0.0020642520321376757
+
+total datapoints: 33
+true_pos: 210
+true_neg: 208
+false_pos: 12
+false_neg: 98
+accuracy: 0.791666666667
+avg_loss: 0.003788041360614984
+
+total datapoints: 24
+true_pos: 121
+true_neg: 170
+false_pos: 2
+false_neg: 91
+accuracy: 0.7578125
+avg_loss: 0.0030604090196250625
+
+FINAL TEST METRICS
+total: 227
+true_pos: 1243
+true_neg: 1526
+false_pos: 61
+false_neg: 802
+accuracy: 0.762389867841
+avg_loss: 0.028649169381542383
+

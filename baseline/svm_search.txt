@@ -1,0 +1,17 @@
+start
+206
+finished loading data
+0.537863070539
+finished split
+before fit
+accuracy of standard/non-tuned model
+0.7524204702627939
+tuning hyperparameters
+{'kernel': 'rbf', 'C': 1, 'gamma': 0.0001}
+             precision    recall  f1-score   support
+
+      False       0.68      0.75      0.71      1337
+       True       0.76      0.70      0.73      1555
+
+avg / total       0.72      0.72      0.72      2892
+

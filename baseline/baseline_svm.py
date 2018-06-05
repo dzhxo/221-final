@@ -51,9 +51,9 @@ print("accuracy of standard/non-tuned model")
 print accuracy_score(y_test, predicted)
 
 print('tuning hyperparameters')
-#tuned_parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4, 1e-2], 'C': [.01, .1, 1, 10, 100]}]
-tuned_parameters = [{'kernel': ['rbf'], 'gamma':[1e-4, 1e-2], 'C':[.1, 1]}]
-clf = GridSearchCV(svm.SVC(), tuned_parameters, cv=2)
+tuned_parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4, 1e-2], 'C': [.01, .1, 1, 10]}]
+#tuned_parameters = [{'kernel': ['rbf'], 'gamma':[1e-4, 1e-2], 'C':[.1, 1]}]
+clf = GridSearchCV(svm.SVC(), tuned_parameters, cv=3)
 clf.fit(x_train, y_train)
 
 print(clf.best_params_)

@@ -1,0 +1,17 @@
+python: can't open file 'baseline_svm': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "baseline_svm.py", line 1, in <module>
+    import load_data
+  File "/home/bodun/221-final/baseline/load_data.py", line 44
+    
+    ^
+SyntaxError: EOF while scanning triple-quoted string literal
+start
+206
+finished loading data
+0.537863070539
+finished split
+before fit
+accuracy of standard/non-tuned model
+0.739972337482711
+tuning hyperparameters
