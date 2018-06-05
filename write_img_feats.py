@@ -58,5 +58,3 @@ for filename in os.listdir('data'):
 			#print('\n')
 	else:
 		continue
-
-#h5f.close()
